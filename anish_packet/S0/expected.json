@@ -1,0 +1,7 @@
+{
+ "input": "scf_TP-NaBiCl4-01.in",
+ "natoms": 12,
+ "laptop_final_energy_Ry": -2667.14647789,
+ "tolerance_meV_per_atom": 0.1,
+ "source": "overnight/night2/summary.json"
+}

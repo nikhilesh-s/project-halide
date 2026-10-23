@@ -1,0 +1,21 @@
+{
+ "chem": "LiBiCl4",
+ "hit": "TP-LiBiCl4-01",
+ "n": 12,
+ "dE_before": -33.59,
+ "dE_after": -27.8,
+ "dec_before": -13.6,
+ "dec_after": -6.9,
+ "best_after": "agm003736573",
+ "best_before": "agm003736573",
+ "AX": "agm002157414",
+ "MX3": "agm002142654",
+ "dec_vs_A3MX6": {},
+ "conv": true,
+ "baselines": {
+  "agm003736573": 0.0,
+  "agm005743229": 28.9
+ },
+ "keep": true,
+ "label": "PROPOSED MODEL - MACE-MPA-0+D3 rattle/re-relax gate (gate3); not DFT"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "NBCB-4-NaBiBr4",
+  "formula": "NaBiBr4",
+  "n_atoms": 12,
+  "converged": true,
+  "steps": 21,
+  "E_per_atom": -2.980989151776887,
+  "vol_per_atom_in": 38.305846216550165,
+  "vol_per_atom": 38.66864206112579,
+  "vol_change_pct": 0.9471030675700876,
+  "sg_0p01": "C2/c",
+  "sg_0p1": "C2/c",
+  "max_disp_A": 0.02109025695716231,
+  "min_dist_A": 2.7131600474921025,
+  "fmax_final": 0.007935450909157475,
+  "wall_s": 0.9184720516204834,
+  "x": 4,
+  "E_mix_meV": 15.431368956668745,
+  "flags": ""
+}

@@ -1,0 +1,21 @@
+{
+ "chem": "LiBiBr4",
+ "hit": "TP-LiBiBr4-01",
+ "n": 12,
+ "dE_before": -23.37,
+ "dE_after": -23.4,
+ "dec_before": -11.07,
+ "dec_after": -11.1,
+ "best_after": "agm005739442",
+ "best_before": "agm005739442",
+ "AX": "agm002091979",
+ "MX3": "agm002138960",
+ "dec_vs_A3MX6": {},
+ "conv": true,
+ "baselines": {
+  "agm005739442": 0.0,
+  "agm003740513": 13.1
+ },
+ "keep": true,
+ "label": "PROPOSED MODEL - MACE-MPA-0+D3 rattle/re-relax gate (gate3); not DFT"
+}

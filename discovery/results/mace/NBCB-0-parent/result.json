@@ -1,0 +1,20 @@
+{
+  "id": "NBCB-0-parent",
+  "formula": "NaBiCl4",
+  "n_atoms": 12,
+  "converged": true,
+  "steps": 47,
+  "E_per_atom": -3.374874871858817,
+  "vol_per_atom_in": 30.47802776509303,
+  "vol_per_atom": 34.0837922036512,
+  "vol_change_pct": 11.830701337859884,
+  "sg_0p01": "C2/c",
+  "sg_0p1": "C2/c",
+  "max_disp_A": 0.19343370387816472,
+  "min_dist_A": 2.6112340659997053,
+  "fmax_final": 0.0050472965952008605,
+  "wall_s": 2.8206567764282227,
+  "x": 0,
+  "E_mix_meV": 0.0,
+  "flags": ""
+}

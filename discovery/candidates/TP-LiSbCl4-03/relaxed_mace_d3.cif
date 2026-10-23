@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiSbCl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.14317526
+_cell_length_b   7.68895216
+_cell_length_c   6.61817306
+_cell_angle_alpha   90.00000668
+_cell_angle_beta   89.13573877
+_cell_angle_gamma   89.99991883
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSbCl4
+_chemical_formula_sum   'Li4 Sb4 Cl16'
+_cell_volume   617.85722752
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.74700445  0.87592208  0.25624500  1
+  Li  Li1  1  0.24699623  0.62407791  0.75624462  1
+  Li  Li2  1  0.25300959  0.37592206  0.24318864  1
+  Li  Li3  1  0.75301778  0.12407788  0.74318887  1
+  Sb  Sb4  1  0.75291764  0.35278116  0.24858810  1
+  Sb  Sb5  1  0.25288111  0.14722187  0.74858668  1
+  Sb  Sb6  1  0.24709638  0.85278117  0.25084547  1
+  Sb  Sb7  1  0.74713291  0.64722186  0.75084688  1
+  Cl  Cl8  1  0.86695368  0.11586749  0.40780291  1
+  Cl  Cl9  1  0.13663511  0.37198181  0.58403235  1
+  Cl  Cl10  1  0.13306035  0.61586801  0.09163065  1
+  Cl  Cl11  1  0.86337889  0.87198128  0.91540126  1
+  Cl  Cl12  1  0.63305033  0.88414105  0.59162709  1
+  Cl  Cl13  1  0.36339286  0.62800524  0.41540707  1
+  Cl  Cl14  1  0.36696369  0.38414054  0.90780648  1
+  Cl  Cl15  1  0.63662119  0.12800575  0.08402646  1
+  Cl  Cl16  1  0.37224360  0.84573199  -0.07354377  1
+  Cl  Cl17  1  0.62785063  0.64439439  1.10478546  1
+  Cl  Cl18  1  0.62777038  0.34573247  0.57297718  1
+  Cl  Cl19  1  0.37216344  0.14439389  0.39464824  1
+  Cl  Cl20  1  0.87215493  0.35561041  -0.10535068  1
+  Cl  Cl21  1  0.12778187  0.15426467  1.07297106  1
+  Cl  Cl22  1  0.12785905  0.85561091  0.60478411  1
+  Cl  Cl23  1  0.87223220  0.65426419  0.42646266  1

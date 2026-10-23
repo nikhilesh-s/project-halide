@@ -1,0 +1,56 @@
+&CONTROL
+  calculation='vc-relax'
+  prefix='symtight_TP-NaBiCl4-01'
+  pseudo_dir='__PSEUDO__'
+  outdir='__TMP__/symtight_TP-NaBiCl4-01'
+  disk_io='low'
+  tprnfor=.true.
+  tstress=.true.
+  forc_conv_thr=1.0d-4
+  etot_conv_thr=1.0d-6
+  nstep=150
+  max_seconds=20000
+/
+&SYSTEM
+  ibrav=0
+  nat=12
+  ntyp=3
+  ecutwfc=60.0
+  ecutrho=480.0
+  vdw_corr='dft-d3'
+  occupations='smearing'
+  smearing='gaussian'
+  degauss=0.005
+/
+&ELECTRONS
+  conv_thr=1.0d-10
+  mixing_beta=0.4
+/
+&IONS
+/
+&CELL
+  press_conv_thr=0.1
+/
+ATOMIC_SPECIES
+  Na 22.9898 Na.pbe-spn-kjpaw_psl.1.0.0.UPF
+  Cl 35.4530 Cl.pbe-n-kjpaw_psl.1.0.0.UPF
+  Bi 208.9804 Bi.pbe-dn-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  6.35768303 0.00000000 0.00000000
+  0.00000000 6.94837802 0.00000000
+  0.00000000 0.00000000 7.66078056
+ATOMIC_POSITIONS crystal
+  Na 0.50000000 0.50000000 0.57907030
+  Na 0.00000000 0.00000000 0.42092970
+  Bi 0.00000000 0.50000000 0.11323824
+  Bi 0.50000000 0.00000000 0.88676176
+  Cl 0.24746334 0.68388221 0.84787545
+  Cl 0.25253666 0.18388221 0.15212455
+  Cl 0.23261150 0.67299658 0.34758183
+  Cl 0.26738850 0.17299658 0.65241817
+  Cl 0.73261150 0.82700342 0.65241817
+  Cl 0.76738850 0.32700342 0.34758183
+  Cl 0.74746334 0.81611779 0.15212455
+  Cl 0.75253666 0.31611779 0.84787545
+K_POINTS automatic
+  5 5 4 0 0 0

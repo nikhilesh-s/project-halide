@@ -1,0 +1,698 @@
+{
+ "phonopy_version": "4.8.3",
+ "displacement_A": 0.02,
+ "structures": {
+  "TP-NaBiCl4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/night2/jobs/01_NaBiCl4_TP01_KBiF4type_vcrelax.out",
+   "source_output_sha256": "2135ae59aa6ff65bdba9d8fb4507d0ae0e92c2eeab73719551c4b1863a7e5b66",
+   "natoms": 12,
+   "formula": "Na2 Bi2 Cl8",
+   "vol_per_atom_A3": 28.2016,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "P2_12_12",
+   "cif": "structures/TP-NaBiCl4-01_relaxed.cif",
+   "cif_sha256": "866ea91056076c4c0df580b1c9a08f6e70b1245b2c80b39b6ba944384a5c5557",
+   "symmetrized_cif": "structures/TP-NaBiCl4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "c4e8e455a8425822745460d95781035ac0ecdc12eaa86c76f75136d11c883408",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.00403,
+    0.0081
+   ],
+   "symmetrization_max_shift_A": 0.0246,
+   "symmetrized_abc": [
+    6.3577,
+    6.9484,
+    7.6608
+   ],
+   "symmetrized_angles": [
+    90.0,
+    90.0,
+    90.0
+   ],
+   "relaxed_abc": [
+    6.3577,
+    6.9484,
+    7.6608
+   ],
+   "relaxed_angles": [
+    89.973,
+    90.048,
+    89.959
+   ]
+  },
+  "agm088474086": {
+   "label": "Alexandria entry, re-relaxed PBE-D3",
+   "source_output": "overnight/night1/jobs/01_NaBiCl4_agm088474086_vcrelax.out",
+   "source_output_sha256": "9ef1495576616e244664ccfa87199a1df455ee997c39b864c363dc224cd3f5e7",
+   "natoms": 12,
+   "formula": "Na2 Bi2 Cl8",
+   "vol_per_atom_A3": 28.0096,
+   "spacegroup_strict": "P2/c",
+   "spacegroup_loose_0p05": "P2/c",
+   "cif": "structures/agm088474086_relaxed.cif",
+   "cif_sha256": "7dd52491dc55ddaf11879f6d4df33e8b6d747d9c475b4d683086a4ee496029bb"
+  },
+  "agm005743614": {
+   "label": "Alexandria entry (old C2/c), re-relaxed PBE-D3",
+   "source_output": "overnight/night2/jobs/00_NaBiCl4_agm005743614_rerelax_vcrelax.out",
+   "source_output_sha256": "c3d4e09eadc506d0aeeaef295a5d4cde6b0ac027e664e5237df08723e762a977",
+   "natoms": 12,
+   "formula": "Na2 Bi2 Cl8",
+   "vol_per_atom_A3": 29.7618,
+   "spacegroup_strict": "P-1",
+   "spacegroup_loose_0p05": "C2/c",
+   "cif": "structures/agm005743614_relaxed.cif",
+   "cif_sha256": "15d6724cc3dd144d66d88bbf457b30d727889de355f896f35923bab7347e671e"
+  },
+  "TP-NaSbCl4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/night2/jobs/05_NaSbCl4_TP01_CsAlCl4type_vcrelax.out",
+   "source_output_sha256": "97137f6f7aa61bf2dcbdd31ffaca58d6411f313aa7e853b8374855c24e343234",
+   "natoms": 12,
+   "formula": "Na2 Sb2 Cl8",
+   "vol_per_atom_A3": 26.7946,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "P-1",
+   "cif": "structures/TP-NaSbCl4-01_relaxed.cif",
+   "cif_sha256": "77f41cf2b44b6a8099e695be37e9bf663b277be999613847c25c9f94aecaf347",
+   "symmetrized_cif": "structures/TP-NaSbCl4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "1bbc89d9386abc65fa134f8677d8b791b679970d3db9820b3af6ca49d81c09fb",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.0044,
+    0.00443
+   ],
+   "symmetrization_max_shift_A": 0.0133,
+   "symmetrized_abc": [
+    7.0866,
+    7.1537,
+    7.369
+   ],
+   "symmetrized_angles": [
+    70.743,
+    71.874,
+    69.149
+   ],
+   "relaxed_abc": [
+    7.0866,
+    7.1537,
+    8.487
+   ],
+   "relaxed_angles": [
+    89.378,
+    124.393,
+    110.851
+   ]
+  },
+  "Li2CaBr4_PBE": {
+   "label": "Alexandria agm003455102, Anish's PBE vc-relax",
+   "source_output": "anish_results/ionic_discovery/dft/dft_li2cabr4/Li2CaBr4.out",
+   "source_output_sha256": "4ecaf59635905eb863f9efe95204b9053a783998f371b76cd478a470dcaea5ee",
+   "natoms": 7,
+   "formula": "Li2 Ca1 Br4",
+   "vol_per_atom_A3": 29.7678,
+   "spacegroup_strict": "C2/m",
+   "spacegroup_loose_0p05": "C2/m",
+   "cif": "structures/Li2CaBr4_PBE_relaxed.cif",
+   "cif_sha256": "d840d8ea0765696be7822c90e15ac7b7b0ca875cded56b0dda1b3cbd87638e46"
+  },
+  "Li2CaBr4_PBED3": {
+   "label": "Alexandria agm003455102, Anish's PBE-D3 vc-relax",
+   "source_output": "anish_results/ionic_discovery/dft/dft_li2cabr4/Li2CaBr4_d3.out",
+   "source_output_sha256": "5a7ead159ca2d3b856402dc5f6713d1c974dda5db966de3d1d9e1ffca05e115b",
+   "natoms": 7,
+   "formula": "Li2 Ca1 Br4",
+   "vol_per_atom_A3": 26.539,
+   "spacegroup_strict": "C2/m",
+   "spacegroup_loose_0p05": "C2/m",
+   "cif": "structures/Li2CaBr4_PBED3_relaxed.cif",
+   "cif_sha256": "8398e022f11a7378a5b124bd4c18590fbbc3bc979ca748880dbfb0b5f5a2fe1c"
+  },
+  "TP-NaSbBr4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/night3/jobs/09_NaSbBr4_TP01_hit_vcrelax.out",
+   "source_output_sha256": "45e71e0e379acea3e71e5a0c26743e70cca80f5306b945f2b2de1eb4d0e73f96",
+   "natoms": 12,
+   "formula": "Na2 Sb2 Br8",
+   "vol_per_atom_A3": 32.7334,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "C2/c",
+   "cif": "structures/TP-NaSbBr4-01_relaxed.cif",
+   "cif_sha256": "646e03cb722c429a87633ebe17f3770162eec1492562fd29af4c353a2b9ec695",
+   "symmetrized_cif": "structures/TP-NaSbBr4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "b3b42712485e198fdbf033ee38fc8f349eebfb8915f547dd99881c1c8ee2b8a5",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.00363,
+    0.00569
+   ],
+   "symmetrization_max_shift_A": 0.0182,
+   "symmetrized_abc": [
+    8.0339,
+    8.0339,
+    7.2818
+   ],
+   "symmetrized_angles": [
+    72.476,
+    107.524,
+    116.679
+   ],
+   "relaxed_abc": [
+    7.2818,
+    8.038,
+    8.0298
+   ],
+   "relaxed_angles": [
+    63.321,
+    72.455,
+    72.498
+   ]
+  },
+  "TP-LiSbBr4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/night3/jobs/02_LiSbBr4_TP01_hit_vcrelax.out",
+   "source_output_sha256": "ee5f278e22c5569121e19d0eebf04a89d35fef8a594c15141b2a77031a791a8f",
+   "natoms": 12,
+   "formula": "Li2 Sb2 Br8",
+   "vol_per_atom_A3": 29.9187,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "C2/c",
+   "cif": "structures/TP-LiSbBr4-01_relaxed.cif",
+   "cif_sha256": "ce4922cb65b2228ad75b942b048bf803ab6072d54081ea181727fbdab4de92bf",
+   "symmetrized_cif": "structures/TP-LiSbBr4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "5b7cdf958fc3f751dc8f6dcd2e73ba71dcf52b0209036dbac851e0482ec754e0",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.00122,
+    0.00197
+   ],
+   "symmetrization_max_shift_A": 0.0061,
+   "symmetrized_abc": [
+    7.9301,
+    7.9301,
+    6.9412
+   ],
+   "symmetrized_angles": [
+    72.968,
+    107.032,
+    119.005
+   ],
+   "relaxed_abc": [
+    6.9412,
+    7.934,
+    7.9261
+   ],
+   "relaxed_angles": [
+    60.995,
+    72.949,
+    72.987
+   ]
+  },
+  "TP-LiBiBr4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/night3/jobs/06_LiBiBr4_TP01_hit_vcrelax.out",
+   "source_output_sha256": "33dcf86007aac208849601ea1e793954264a361a186fcbeb079249409c650c64",
+   "natoms": 12,
+   "formula": "Li2 Bi2 Br8",
+   "vol_per_atom_A3": 30.5092,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "C2/c",
+   "cif": "structures/TP-LiBiBr4-01_relaxed.cif",
+   "cif_sha256": "b5ae4767b07f31481e1c537d01234dd32a654fa9972dbb8ae2e1e1a47c1afea1",
+   "symmetrized_cif": "structures/TP-LiBiBr4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "cc0776929481641748bebfef89c68360c47605dde71c2eb90818a7356a79df02",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.00107,
+    0.00229
+   ],
+   "symmetrization_max_shift_A": 0.0071,
+   "symmetrized_abc": [
+    7.5654,
+    7.5654,
+    7.0352
+   ],
+   "symmetrized_angles": [
+    90.0,
+    90.0,
+    114.601
+   ],
+   "relaxed_abc": [
+    7.0352,
+    7.5695,
+    7.5613
+   ],
+   "relaxed_angles": [
+    114.601,
+    90.009,
+    90.009
+   ]
+  },
+  "TP-NaBiBr4-01": {
+   "label": "PROPOSED MODEL",
+   "source_output": "overnight/m5_oct16/jobs/00a_NaBiBr4_TP01_CsAlCl4type_hit_vcrelax.out",
+   "source_output_sha256": "71bbb5be6f1edb6db7d81ad61ade6cb96326ae20157b4f2dcfae2d83325a1eca",
+   "natoms": 12,
+   "formula": "Na2 Bi2 Br8",
+   "vol_per_atom_A3": 33.4683,
+   "spacegroup_strict": "P1",
+   "spacegroup_loose_0p05": "C2/c",
+   "cif": "structures/TP-NaBiBr4-01_relaxed.cif",
+   "cif_sha256": "ccd40ec37fd2d130e549d813c82ac7c60ab6d807847db6ad47349763e54ab8f3",
+   "symmetrized_cif": "structures/TP-NaBiBr4-01_symmetrized.cif",
+   "symmetrized_cif_sha256": "ab174c92e41fc96921962256f5ae38b1779b108d6d0a80244f513ec9ba1542ce",
+   "symmetrization_rms_and_max_shift_normalised": [
+    0.00783,
+    0.01023
+   ],
+   "symmetrization_max_shift_A": 0.033,
+   "symmetrized_abc": [
+    8.0611,
+    8.0611,
+    7.3586
+   ],
+   "symmetrized_angles": [
+    72.116,
+    107.884,
+    115.67
+   ],
+   "relaxed_abc": [
+    8.0604,
+    7.3586,
+    8.5828
+   ],
+   "relaxed_angles": [
+    90.0,
+    122.157,
+    107.886
+   ]
+  }
+ },
+ "phonons": {
+  "S1/TP-NaBiCl4-01": {
+   "structure_id": "TP-NaBiCl4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    5,
+    4
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    2
+   ],
+   "supercell_lengths_A": [
+    12.715,
+    13.897,
+    15.322
+   ],
+   "spacegroup_used": "P2_12_12"
+  },
+  "S1/TP-NaBiCl4-01_P1fallback": {
+   "structure_id": "TP-NaBiCl4-01 (as relaxed, no symmetry)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 72,
+   "n_scf_including_reference": 73,
+   "kmesh_primitive": [
+    5,
+    5,
+    4
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    2
+   ],
+   "supercell_lengths_A": [
+    12.715,
+    13.897,
+    15.322
+   ],
+   "spacegroup_used": "P1"
+  },
+  "S1/agm088474086": {
+   "structure_id": "agm088474086",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    4,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    2,
+    3
+   ],
+   "supercell_lengths_A": [
+    12.495,
+    15.448,
+    13.947
+   ],
+   "spacegroup_used": "P2/c"
+  },
+  "S3/TP-NaSbCl4-01": {
+   "structure_id": "TP-NaSbCl4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 36,
+   "n_scf_including_reference": 37,
+   "kmesh_primitive": [
+    5,
+    5,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    3
+   ],
+   "supercell_lengths_A": [
+    14.173,
+    14.307,
+    14.738
+   ],
+   "spacegroup_used": "P-1"
+  },
+  "S4/TP-NaSbBr4-01": {
+   "structure_id": "TP-NaSbBr4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    5,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    3
+   ],
+   "supercell_lengths_A": [
+    16.068,
+    16.068,
+    14.564
+   ],
+   "spacegroup_used": "C2/c"
+  },
+  "S5/TP-LiSbBr4-01": {
+   "structure_id": "TP-LiSbBr4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    5,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    3
+   ],
+   "supercell_lengths_A": [
+    15.86,
+    15.86,
+    13.882
+   ],
+   "spacegroup_used": "C2/c"
+  },
+  "S5/TP-LiBiBr4-01": {
+   "structure_id": "TP-LiBiBr4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    5,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    3
+   ],
+   "supercell_lengths_A": [
+    15.131,
+    15.131,
+    14.07
+   ],
+   "spacegroup_used": "C2/c"
+  },
+  "S5/TP-NaBiBr4-01": {
+   "structure_id": "TP-NaBiBr4-01 (symmetrised)",
+   "supercell": [
+    2,
+    2,
+    2
+   ],
+   "natoms_supercell": 96,
+   "n_displacements": 18,
+   "n_scf_including_reference": 19,
+   "kmesh_primitive": [
+    5,
+    5,
+    5
+   ],
+   "kmesh_supercell": [
+    3,
+    3,
+    3
+   ],
+   "supercell_lengths_A": [
+    16.122,
+    16.122,
+    14.717
+   ],
+   "spacegroup_used": "C2/c"
+  }
+ },
+ "md": {
+  "md_items.json.gz": {
+   "TP-NaBiCl4-01": {
+    "min_width": 13.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 28.2016
+   },
+   "agm088474086": {
+    "min_width": 12.5,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 28.0096
+   },
+   "agm005743614": {
+    "min_width": 11.5,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 29.7618
+   }
+  },
+  "smoke_items.json.gz": {
+   "TP-NaBiCl4-01": {
+    "min_width": 13.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 28.2016
+   }
+  },
+  "md_nasbcl4_items.json.gz": {
+   "TP-NaSbCl4-01": {
+    "min_width": 11.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 26.7946
+   }
+  },
+  "md_li2cabr4_items.json.gz": {
+   "Li2CaBr4_PBE": {
+    "min_width": 12.0,
+    "mult": [
+     3,
+     3,
+     2
+    ],
+    "natoms": 126,
+    "vol_per_atom_A3": 29.7678
+   },
+   "Li2CaBr4_PBED3": {
+    "min_width": 12.0,
+    "mult": [
+     3,
+     3,
+     2
+    ],
+    "natoms": 126,
+    "vol_per_atom_A3": 26.539
+   }
+  },
+  "md_nasbbr4_items.json.gz": {
+   "TP-NaSbBr4-01": {
+    "min_width": 14.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 32.7334
+   }
+  },
+  "md_more_items.json.gz": {
+   "TP-NaBiCl4-01": {
+    "min_width": 13.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 28.2016
+   },
+   "agm088474086": {
+    "min_width": 12.5,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 28.0096
+   },
+   "agm005743614": {
+    "min_width": 11.5,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 29.7618
+   },
+   "TP-NaSbCl4-01": {
+    "min_width": 11.0,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 26.7946
+   }
+  },
+  "md_lisbbr4_items.json.gz": {
+   "TP-LiSbBr4-01": {
+    "min_width": 13.5,
+    "mult": [
+     3,
+     2,
+     2
+    ],
+    "natoms": 144,
+    "vol_per_atom_A3": 29.9187
+   }
+  },
+  "md_libibr4_items.json.gz": {
+   "TP-LiBiBr4-01": {
+    "min_width": 14.0,
+    "mult": [
+     2,
+     3,
+     3
+    ],
+    "natoms": 216,
+    "vol_per_atom_A3": 30.5092
+   }
+  }
+ },
+ "s4": {
+  "relax/repeat_TP-NaBiCl4-01.in": {
+   "source_input": "overnight/night2/jobs/01_NaBiCl4_TP01_KBiF4type_vcrelax.in",
+   "source_input_sha256": "a52bb812793896bfd94c9beffa902f150069344ec73d8125f73cb9b10255c9ff"
+  },
+  "relax/symtight_TP-NaBiCl4-01.in": {
+   "structure": "TP-NaBiCl4-01",
+   "nosym": false,
+   "kmesh": [
+    5,
+    5,
+    4
+   ]
+  },
+  "relax/P1tight_TP-NaBiCl4-01.in": {
+   "structure": "TP-NaBiCl4-01",
+   "nosym": true,
+   "kmesh": [
+    5,
+    5,
+    4
+   ]
+  },
+  "rival/10a1_NaBiCl4_TPscan01_KGaI4type_RIVAL_vcrelax.in": {
+   "source_input": "overnight/night2/jobs/10a1_NaBiCl4_TPscan01_KGaI4type_RIVAL_vcrelax.in",
+   "source_input_sha256": "7780953de302a74b1f19cb568edf4a34987f11a305e152e6d8b401e7ce66d858"
+  },
+  "TP-NaSbBr4-01_relaxed_energy_Ry": -2549.80635997
+ },
+ "s5": {
+  "TP-LiSbBr4-01_relaxed_energy_Ry": -2361.3726056,
+  "TP-LiBiBr4-01_relaxed_energy_Ry": -3478.86986748,
+  "TP-NaBiBr4-01_relaxed_energy_Ry": -3667.30618961
+ }
+}

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Li2CaBr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.26575915
+_cell_length_b   6.67677803
+_cell_length_c   8.07379210
+_cell_angle_alpha   121.79212344
+_cell_angle_beta   105.31783059
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaBr4
+_chemical_formula_sum   'Li2 Ca1 Br4'
+_cell_volume   185.77277921
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.70099029  0.75345505  0.40198157  1
+  Li  Li1  1  0.29900971  0.24654495  0.59801843  1
+  Ca  Ca2  1  0.00000000  0.00000000  0.00000000  1
+  Br  Br3  1  0.87055179  0.18450220  0.74110457  1
+  Br  Br4  1  0.12944821  0.81549781  0.25889543  1
+  Br  Br5  1  0.63036727  0.30910307  0.26073453  1
+  Br  Br6  1  0.36963273  0.69089693  0.73926547  1

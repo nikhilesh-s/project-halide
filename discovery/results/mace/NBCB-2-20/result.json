@@ -1,0 +1,20 @@
+{
+  "id": "NBCB-2-20",
+  "formula": "NaBi(BrCl)2",
+  "n_atoms": 12,
+  "converged": true,
+  "steps": 67,
+  "E_per_atom": -3.1830169655059284,
+  "vol_per_atom_in": 30.478027773915695,
+  "vol_per_atom": 35.96675159735667,
+  "vol_change_pct": 18.00878936181838,
+  "sg_0p01": "P1",
+  "sg_0p1": "P1",
+  "max_disp_A": 0.29159949604310803,
+  "min_dist_A": 2.6193767698252493,
+  "fmax_final": 0.005826633219205374,
+  "wall_s": 2.834217071533203,
+  "x": 2,
+  "E_mix_meV": 2.6307307902579957,
+  "flags": ""
+}

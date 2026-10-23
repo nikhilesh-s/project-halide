@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaBiI4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.68140859
+_cell_length_b   8.64671430
+_cell_length_c   8.65893375
+_cell_angle_alpha   62.45083255
+_cell_angle_beta   72.64757063
+_cell_angle_gamma   72.57379121
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBiI4
+_chemical_formula_sum   'Na2 Bi2 I8'
+_cell_volume   477.75164866
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.04222742  0.84418969  0.57012926  1
+  Bi  Bi1  1  0.54256396  0.57000994  0.84278817  1
+  I  I2  1  0.28187165  0.95874723  0.71739841  1
+  I  I3  1  0.28965880  0.94505025  0.21052422  1
+  I  I4  1  0.78907061  0.20895759  0.94566492  1
+  I  I5  1  0.78081355  0.71803598  0.95762209  1
+  I  I6  1  0.29425298  0.46858242  0.20172987  1
+  I  I7  1  0.30293516  0.45600427  0.69528474  1
+  I  I8  1  0.80500447  0.69508176  0.45568774  1
+  I  I9  1  0.79359116  0.20424912  0.46772126  1
+  Na  Na10  1  0.04075058  0.32817970  0.08463403  1
+  Na  Na11  1  0.54176842  0.08471461  0.32899645  1

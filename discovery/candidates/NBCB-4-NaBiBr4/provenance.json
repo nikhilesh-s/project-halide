@@ -1,0 +1,9 @@
+{
+  "source_file": "anish_results/ionic_discovery/structures/alexandria_pbe/NaBiBr4.cif",
+  "source_sha256": "d4dac2e31f3c98b7c0ce4ff38ca141370452272067b9c8501ba2f17c7935f0fe",
+  "role": "end member x=4 (Alexandria PBE, copied unchanged)",
+  "formula": "NaBiBr4",
+  "space_group": "C2/c",
+  "n_atoms": 24,
+  "label": "END MEMBER \u2014 Alexandria PBE, copied unchanged"
+}

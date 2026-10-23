@@ -1,0 +1,7 @@
+disp	job
+disp-000	parked/skipped_too_expensive/31_NaBr_agm080902039_vcrelax
+disp-001	halide-runner/queue/jobs/06_NaSbBr5_agm005795742_tier2_vcrelax (resumed from a volunteer step 61)
+disp-002	LiAlBr4_TP01_control_D3BJ (from m5_left/jobs/33_LiAlBr4_TP01_control_vcrelax)
+disp-003	LiAlBr4_TP01_control_noD3 (from m5_left/jobs/33_LiAlBr4_TP01_control_vcrelax)
+disp-004	LiAlBr4_LiAlCl4type_expt_control_D3BJ (from m5_left/jobs/10_LiAlBr4_LiAlCl4type_expt_agm003231472_control_vcrelax)
+disp-005	LiAlBr4_LiAlCl4type_expt_control_noD3 (from m5_left/jobs/10_LiAlBr4_LiAlCl4type_expt_agm003231472_control_vcrelax)

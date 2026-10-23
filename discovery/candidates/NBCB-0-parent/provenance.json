@@ -1,0 +1,10 @@
+{
+  "parent_file": "anish_results/ionic_discovery/structures/qe_pbe_relaxed/NaBiCl4_d3.cif",
+  "parent_sha256": "848a3745add7afc97b196d5874f2abec66179a23d0b642571fe2bcc22ce260e1",
+  "parent_note": "primitive cell of parent",
+  "role": "end member x=0 (parent, copied unchanged)",
+  "formula": "NaBiCl4",
+  "space_group": "C2/c",
+  "n_atoms": 24,
+  "label": "END MEMBER \u2014 QE PBE-D3 relaxed, copied unchanged"
+}

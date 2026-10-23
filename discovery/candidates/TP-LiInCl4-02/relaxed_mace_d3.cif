@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiInCl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37902045
+_cell_length_b   6.94926157
+_cell_length_c   7.13615043
+_cell_angle_alpha   116.70370035
+_cell_angle_beta   90.27309903
+_cell_angle_gamma   89.58204672
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiInCl4
+_chemical_formula_sum   'Li2 In2 Cl8'
+_cell_volume   282.59366623
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.24968317  -0.10998215  0.39031925  1
+  Li  Li1  1  0.75031685  1.10998214  0.60968076  1
+  In  In2  1  0.74986671  0.64101172  0.14075112  1
+  In  In3  1  0.25013331  0.35898827  0.85924889  1
+  Cl  Cl4  1  0.58272198  0.75049317  0.48654375  1
+  Cl  Cl5  1  0.41727804  0.24950682  0.51345626  1
+  Cl  Cl6  1  0.08242463  0.00256781  0.73934213  1
+  Cl  Cl7  1  0.91757539  0.99743219  0.26065788  1
+  Cl  Cl8  1  0.91144321  0.50508637  0.76902054  1
+  Cl  Cl9  1  0.08855681  0.49491362  0.23097947  1
+  Cl  Cl10  1  0.58835178  0.25808840  -0.00528034  1
+  Cl  Cl11  1  0.41164824  0.74191159  1.00528035  1

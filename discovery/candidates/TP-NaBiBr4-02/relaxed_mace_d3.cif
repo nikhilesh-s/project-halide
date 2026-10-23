@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaBiBr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.30421376
+_cell_length_b   6.46244868
+_cell_length_c   16.66716097
+_cell_angle_alpha   89.99999989
+_cell_angle_beta   89.99999997
+_cell_angle_gamma   89.99999994
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBiBr4
+_chemical_formula_sum   'Na4 Bi4 Br16'
+_cell_volume   786.74177536
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.75000000  0.49999999  0.69458460  1
+  Na  Na1  1  0.24999999  0.50000000  0.30541705  1
+  Na  Na2  1  0.25000000  -0.00000000  0.80541540  1
+  Na  Na3  1  0.75000001  -0.00000000  0.19458295  1
+  Bi  Bi4  1  0.24999998  0.50000000  0.56845849  1
+  Bi  Bi5  1  0.75000003  0.49999999  0.43157091  1
+  Bi  Bi6  1  0.75000002  0.00000001  0.93154151  1
+  Bi  Bi7  1  0.24999997  -0.00000000  0.06842909  1
+  Br  Br8  1  0.07656595  0.75131212  0.68101784  1
+  Br  Br9  1  0.92344406  0.24867372  0.31897363  1
+  Br  Br10  1  0.57656595  0.74868788  0.81898215  1
+  Br  Br11  1  0.42344408  0.25132628  0.18102637  1
+  Br  Br12  1  0.92343406  0.25131213  0.81898216  1
+  Br  Br13  1  0.07655594  0.74867373  0.18102637  1
+  Br  Br14  1  0.42343405  0.24868787  0.68101785  1
+  Br  Br15  1  0.57655592  0.75132628  0.31897363  1
+  Br  Br16  1  0.57639989  0.75302480  0.56213425  1
+  Br  Br17  1  0.42360613  0.24696836  0.43785803  1
+  Br  Br18  1  0.07639989  0.74697521  0.93786576  1
+  Br  Br19  1  0.92360615  0.25303162  0.06214197  1
+  Br  Br20  1  0.42360011  0.25302481  0.93786575  1
+  Br  Br21  1  0.57639387  0.74696836  0.06214197  1
+  Br  Br22  1  0.92360011  0.24697521  0.56213424  1
+  Br  Br23  1  0.07639385  0.75303162  0.43785803  1

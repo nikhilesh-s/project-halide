@@ -1,0 +1,55 @@
+&CONTROL
+  calculation='vc-relax'
+  prefix='disp-016'
+  pseudo_dir='__PSEUDO__'
+  outdir='__TMP__/disp-016'
+  disk_io='low'
+  tprnfor=.true.
+  tstress=.true.
+  forc_conv_thr=1.0d-3
+  etot_conv_thr=1.0d-5
+  nstep=150
+  max_seconds=42000
+/
+&SYSTEM
+  ibrav=0
+  nat=10
+  ntyp=3
+  ecutwfc=80.0
+  ecutrho=640.0
+  vdw_corr='dft-d3'
+  dftd3_version=4
+  occupations='smearing'
+  smearing='gaussian'
+  degauss=0.005
+/
+&ELECTRONS
+  conv_thr=1.0d-8
+  mixing_beta=0.4
+/
+&IONS
+/
+&CELL
+  press_conv_thr=0.5
+/
+ATOMIC_SPECIES
+  Na 22.9898 Na.pbe-spn-kjpaw_psl.1.0.0.UPF
+  Br 79.9040 Br.pbe-n-kjpaw_psl.1.0.0.UPF
+  Sb 121.7600 Sb.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  6.49811105 0.00083642 3.28865735
+  2.41806844 6.03317624 3.28447889
+  -0.01900110 -0.01138313 8.11670045
+ATOMIC_POSITIONS crystal
+  Na 0.47949884 0.47832717 0.56254348
+  Na 0.98528822 0.98424681 0.04464448
+  Na 0.30361050 0.30287733 0.08933391
+  Sb 0.65838941 0.65740039 0.02526558
+  Br 0.40528736 0.05823465 0.80650571
+  Br 0.72986198 0.40424960 0.80633519
+  Br 0.05945349 0.72874025 0.80643781
+  Br 0.58412296 0.87471045 0.27915211
+  Br 0.26117985 0.58328026 0.27938494
+  Br 0.87545862 0.26025070 0.27916545
+K_POINTS automatic
+  5 5 5 0 0 0

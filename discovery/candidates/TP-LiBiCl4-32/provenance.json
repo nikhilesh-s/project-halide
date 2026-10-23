@@ -1,0 +1,31 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "LiBiCl4",
+ "source_id": "agm082912513",
+ "source_formula": "RbGaF4",
+ "source_hull_eV": 0.008033385,
+ "source_sg": 2,
+ "substitution": {
+  "Rb": "Li",
+  "Ga": "Bi",
+  "F": "Cl"
+ },
+ "volume_scale": 1.4461052480210814,
+ "target_V_per_atom": 27.50047901741138,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm082912513"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -12.67,
+ "dE_D3_meV": -4.21,
+ "best_existing_D3": "agm003736573",
+ "n_existing_D3": 2,
+ "E_decomp_meV": 15.78,
+ "binaries": "agm002157414+agm002142653",
+ "sg_D3": "P-1",
+ "V_D3": 26.8,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

@@ -1,0 +1,32 @@
+{
+ "status": "PROPOSED MODEL; MACE-MPA-0+D3 rattle check only (no DFT). DFT queued 2026-10-15, see discovery/results/new_candidates_oct15.md",
+ "chem": "NaSbI4",
+ "hit": "TP-NaSbI4-01",
+ "n": 12,
+ "conv": true,
+ "dE_before": -20.47,
+ "dE_after": -20.4,
+ "dec_before": 6.15,
+ "dec_after": 7.0,
+ "dec_full_hull": 7.0,
+ "route": {
+  "agm003264389(SbI3)": 0.667,
+  "agm003157588(NaI)": 0.333
+ },
+ "best_after": "agm005743434",
+ "best_before": "agm005743434",
+ "AX": "agm003157588",
+ "MX3": "agm003264389",
+ "baselines": {
+  "agm005743434": [
+   6,
+   0.0
+  ],
+  "agm003736683": [
+   12,
+   5.1
+  ]
+ },
+ "amx4_not_relaxed": [],
+ "keep": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "NBCB-1-09",
+  "formula": "NaBiBrCl3",
+  "n_atoms": 12,
+  "converged": true,
+  "steps": 68,
+  "E_per_atom": -3.27830532585597,
+  "vol_per_atom_in": 30.478027773915695,
+  "vol_per_atom": 35.03887949381012,
+  "vol_change_pct": 14.96439255757156,
+  "sg_0p01": "C2",
+  "sg_0p1": "C2",
+  "max_disp_A": 0.2086549086269769,
+  "min_dist_A": 2.6060182878579274,
+  "fmax_final": 0.004243934788322273,
+  "wall_s": 3.701570749282837,
+  "x": 1,
+  "E_mix_meV": 1.9559582215320503,
+  "flags": ""
+}

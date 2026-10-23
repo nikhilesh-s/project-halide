@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below and cite the NOMAD dataset."
+title: "Project Halide: code for DFT validation of predicted Li/Na metal-halide structures"
+type: software
+version: "v2.0.1"
+date-released: "2026-10-22"
+license: MIT
+authors:
+  - family-names: Suravarjjala
+    given-names: Nikhilesh
+    orcid: "https://orcid.org/0009-0004-7227-2213"
+    affiliation: "Independent researcher"
+  - family-names: Kakani
+    given-names: Arnav
+    orcid: "https://orcid.org/0009-0000-6170-8342"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23481926"
+abstract: >-
+  Scripts used to screen, relax and judge predicted (not synthesised) Li/Na
+  tetrahalide structure models with MACE-MPA-0 and Quantum ESPRESSO PBE-D3.
+  Contains the gate logic (verdict.py), the structure-transplant scan, DFT job
+  generators and runner, and the cluster packet workflow. The two headline
+  proposed models are TP-NaSbBr4-01 and TP-LiSbBr4-01. All structures are
+  predicted or proposed models; no electrolyte is claimed. Raw DFT outputs are
+  in the NOMAD datasets, not here.
+keywords: [DFT, Quantum ESPRESSO, MACE, metal halides, structure prediction, sodium, lithium]
+references:
+  - type: dataset
+    title: "Independent PBE and PBE-D3 validation (v1)"
+    doi: "10.17172/nomad.7c09-m7v2"

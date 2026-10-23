@@ -1,0 +1,37 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "NaSbCl4",
+ "source_id": "agm085182245",
+ "source_formula": "NaInF4",
+ "source_hull_eV": 0.0,
+ "source_sg": 30,
+ "substitution": {
+  "Na": "Na",
+  "In": "Sb",
+  "F": "Cl"
+ },
+ "volume_scale": 2.272443366421304,
+ "target_V_per_atom": 33.98235075746507,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm085182245",
+  "agm078187851",
+  "agm078029687",
+  "agm077852570",
+  "agm087202062",
+  "agm078246511",
+  "agm003738833"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -30.1,
+ "dE_D3_meV": -6.01,
+ "best_existing_D3": "agm005743441",
+ "n_existing_D3": 2,
+ "E_decomp_meV": 13.3,
+ "binaries": "agm003157609+agm002205242",
+ "sg_D3": "Pnc2",
+ "V_D3": 28.45,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

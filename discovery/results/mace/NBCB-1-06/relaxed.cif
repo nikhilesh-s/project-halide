@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaBiBrCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45270016
+_cell_length_b   7.42957875
+_cell_length_c   9.36307609
+_cell_angle_alpha   104.91903575
+_cell_angle_beta   105.49195321
+_cell_angle_gamma   112.48810129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBiBrCl3
+_chemical_formula_sum   'Na2 Bi2 Br2 Cl6'
+_cell_volume   422.28580980
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.93232661  0.68935504  0.36948989  1
+  Na  Na1  1  0.07847979  0.32181155  0.62736333  1
+  Bi  Bi2  1  0.17655493  0.92863417  0.86876831  1
+  Bi  Bi3  1  0.81679048  0.06535805  0.13286454  1
+  Br  Br4  1  0.93934376  0.15749365  0.86612406  1
+  Br  Br5  1  0.17462874  0.43800658  0.36338731  1
+  Cl  Cl6  1  0.01808711  0.82609564  0.11166958  1
+  Cl  Cl7  1  0.40268790  0.71142521  0.88648419  1
+  Cl  Cl8  1  0.58748064  0.28123159  0.12603512  1
+  Cl  Cl9  1  0.73237904  0.94756702  0.35963131  1
+  Cl  Cl10  1  0.28158211  0.05722934  0.65398613  1
+  Cl  Cl11  1  0.85965889  0.57579214  0.63419623  1

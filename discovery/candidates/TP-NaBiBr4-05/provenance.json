@@ -1,0 +1,32 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "NaBiBr4",
+ "source_id": "agm003232784",
+ "source_formula": "LiGaBr4",
+ "source_hull_eV": 0.000489555,
+ "source_sg": 14,
+ "substitution": {
+  "Li": "Na",
+  "Ga": "Bi",
+  "Br": "Br"
+ },
+ "volume_scale": 1.0254657095568485,
+ "target_V_per_atom": 38.12115035423982,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm003232784",
+  "agm003232893"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -6.9,
+ "dE_D3_meV": -6.48,
+ "best_existing_D3": "agm069058740",
+ "n_existing_D3": 3,
+ "E_decomp_meV": 9.9,
+ "binaries": "agm003157587+agm002138960",
+ "sg_D3": "P2_1/c",
+ "V_D3": 32.89,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

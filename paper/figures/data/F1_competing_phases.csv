@@ -1,0 +1,30 @@
+# git c5a4d03 | verdict.json 2026-10-21 11:11; setting 80 Ry k0.22; PBE-D3 zero damping; energies relative to the lowest computed binaries
+system,formula,source,space_group,job,dE_vs_binaries_meV_atom,status,role
+Na-Sb-Br,NaSbBr4,TP-NaSbBr4-01,C2/c,night3/09_NaSbBr4_TP01_hit_vcrelax,-6.156962,done,TP
+Na-Sb-Br,SbBr3,agm002139075,R-3,air/12_SbBr3_agm002139075_ref_vcrelax,0.000000,done,
+Na-Sb-Br,NaBr,agm003157587,Fm-3m,air/15_NaBr_agm003157587_ref_vcrelax,0.000000,done,
+Na-Sb-Br,SbBr3,agm002257875,P-1,m5_oct15/09_SbBr3_agm002257875_vcrelax,1.730780,done,
+Na-Sb-Br,Na3SbBr6,agm003568537,P2_1/c,helpers/c_04_Na3SbBr6_agm003568537_ternary_vcrelax,8.017699,done,
+Na-Sb-Br,NaSbBr4,agm003733885,C2/c,night3/10_NaSbBr4_agm003733885_best_existing_vcrelax,10.867604,done,lowest listed
+Na-Sb-Br,SbBr3,agm003218591,Pnma,m5_oct15/10_SbBr3_Pnma_expt_agm003218591_vcrelax,15.151657,done,
+Na-Sb-Br,NaSbBr4,agm005739607,C2,helpers/c_07_NaSbBr4_agm005739607_listed2_vcrelax,16.753155,done,
+Na-Sb-Br,Na3SbBr6,agm016963778,R3,night3/12_Na3SbBr6_agm016963778_vcrelax,17.230665,done,
+Na-Sb-Br,SbBr3,agm003218590,Pnma (P212121 start; symprec 0.05),m5_oct15/10m_SbBr3_P212121_expt_agm003218590_vcrelax,18.789930,done,
+Na-Sb-Br,NaBr,agm004462092,P6_3/mmc,air/21c_NaBr_wz_agm004462092_vcrelax,28.501342,done,
+Na-Sb-Br,SbBr3,agm080347906,R3,helpers/c_01_SbBr3_agm080347906_vcrelax,35.420645,done,
+Na-Sb-Br,SbBr3,agm071416924,I4_132,helpers/c_02_SbBr3_agm071416924_vcrelax,39.219856,done,
+Na-Sb-Br,Na2SbBr5,agm005863603,C2,m5_oct15/10j_Na2SbBr5_agm005863603_ternary_vcrelax,47.865738,done,
+Li-Sb-Br,LiSbBr4,TP-LiSbBr4-01,C2/c,night3/02_LiSbBr4_TP01_hit_vcrelax,-7.661955,done,TP
+Li-Sb-Br,SbBr3,agm002139075,R-3,air/12_SbBr3_agm002139075_ref_vcrelax,0.000000,done,
+Li-Sb-Br,LiBr,agm002091979,P6_3mc,m5_oct15/10l_LiBr_agm002091979_ref_vcrelax,0.000000,done,
+Li-Sb-Br,LiBr,agm003157564,Fm-3m,m5_oct15/02_LiBr_rocksalt_agm003157564_vcrelax,0.936718,done,
+Li-Sb-Br,SbBr3,agm002257875,P-1,m5_oct15/09_SbBr3_agm002257875_vcrelax,1.730780,done,
+Li-Sb-Br,LiBr,agm003157565,F-43m,air/11_LiBr_rs_agm003157565_ref_vcrelax,2.466882,done,
+Li-Sb-Br,SbBr3,agm003218591,Pnma,m5_oct15/10_SbBr3_Pnma_expt_agm003218591_vcrelax,15.151657,done,
+Li-Sb-Br,LiSbBr4,agm005739369,P2/m,air/10_LiSbBr4_agm005739369_best_existing_vcrelax,15.622148,done,lowest listed
+Li-Sb-Br,SbBr3,agm003218590,Pnma (P212121 start; symprec 0.05),m5_oct15/10m_SbBr3_P212121_expt_agm003218590_vcrelax,18.789930,done,
+Li-Sb-Br,LiSbBr4,agm003740876,C2/c,air_heavy/03b_LiSbBr4_agm003740876_listed2_vcrelax,20.643986,done,
+Li-Sb-Br,SbBr3,agm080347906,R3,helpers/c_01_SbBr3_agm080347906_vcrelax,35.420645,done,
+Li-Sb-Br,SbBr3,agm071416924,I4_132,helpers/c_02_SbBr3_agm071416924_vcrelax,39.219856,done,
+Li-Sb-Br,Li3SbBr6,agm006027634,P1,air_heavy/02_Li3SbBr6_agm006027634_ternary_vcrelax,40.372840,done,
+Li-Sb-Br,Li3SbBr6,agm070912415,P4_332,m5_oct17/01_Li3SbBr6_P4332_agm070912415_ternary_vcrelax,82.843286,done,

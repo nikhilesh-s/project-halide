@@ -1,0 +1,11 @@
+{
+  "id": "REF-NaBiBr4-on-NaBiCl4proto",
+  "n_disp": 18,
+  "done": 18,
+  "wall_s": 4.6227569580078125,
+  "min_THz_commensurate": -0.17823474578523768,
+  "min_THz_8x8x8": -0.6955136594113309,
+  "n_modes_below_m0p1_commensurate": 1,
+  "n_modes_below_m0p1_8x8x8": 81,
+  "n_qpoints_8x8x8": 150
+}

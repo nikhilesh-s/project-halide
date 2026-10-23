@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaGaI4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38285435
+_cell_length_b   7.97408785
+_cell_length_c   15.75559716
+_cell_angle_alpha   90.00000624
+_cell_angle_beta   89.19104621
+_cell_angle_gamma   90.00000123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGaI4
+_chemical_formula_sum   'Na4 Ga4 I16'
+_cell_volume   927.46364838
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.29015252  0.71583894  0.22181358  1
+  Na  Na1  1  0.70984748  0.28416106  0.77818642  1
+  Na  Na2  1  0.70984743  0.21583897  0.27818642  1
+  Na  Na3  1  0.29015257  0.78416103  0.72181358  1
+  Ga  Ga4  1  0.20496914  0.27067690  0.85288801  1
+  Ga  Ga5  1  0.79503080  0.72932309  0.14711198  1
+  Ga  Ga6  1  0.79503094  0.77067687  0.64711194  1
+  Ga  Ga7  1  0.20496908  0.22932312  0.35288805  1
+  I  I8  1  0.42376220  0.47867052  0.37656217  1
+  I  I9  1  0.57623779  0.52132947  0.62343782  1
+  I  I10  1  0.57623775  0.97867046  0.12343783  1
+  I  I11  1  0.42376226  0.02132952  0.87656218  1
+  I  I12  1  0.59080164  0.02996315  0.62173076  1
+  I  I13  1  0.40919835  0.97003686  0.37826924  1
+  I  I14  1  0.40919839  0.52996320  0.87826924  1
+  I  I15  1  0.59080162  0.47003681  0.12173076  1
+  I  I16  1  0.92795286  0.25802780  -0.04934853  1
+  I  I17  1  0.07204717  0.74197220  1.04934853  1
+  I  I18  1  0.07204712  0.75802779  0.54934855  1
+  I  I19  1  0.92795286  0.24197221  0.45065146  1
+  I  I20  1  0.10406468  0.26898941  0.69583597  1
+  I  I21  1  0.89593533  0.73101059  0.30416404  1
+  I  I22  1  0.89593539  0.76898942  0.80416405  1
+  I  I23  1  0.10406461  0.23101058  0.19583595  1

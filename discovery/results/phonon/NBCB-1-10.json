@@ -1,0 +1,11 @@
+{
+  "id": "NBCB-1-10",
+  "n_disp": 36,
+  "done": 36,
+  "wall_s": 9.957258939743042,
+  "min_THz_commensurate": -0.0003154503413047787,
+  "min_THz_8x8x8": -0.5719406663030702,
+  "n_modes_below_m0p1_commensurate": 0,
+  "n_modes_below_m0p1_8x8x8": 66,
+  "n_qpoints_8x8x8": 150
+}

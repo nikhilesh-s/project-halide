@@ -1,0 +1,11 @@
+{
+  "id": "NBCB-2-19",
+  "n_disp": 72,
+  "done": 72,
+  "wall_s": 20.097209930419922,
+  "min_THz_commensurate": -6.995146447177884e-05,
+  "min_THz_8x8x8": -0.6869525226004176,
+  "n_modes_below_m0p1_commensurate": 0,
+  "n_modes_below_m0p1_8x8x8": 164,
+  "n_qpoints_8x8x8": 260
+}

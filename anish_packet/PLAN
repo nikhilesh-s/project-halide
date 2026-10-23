@@ -1,0 +1,14 @@
+# Anish's run plan, read by go.sh top to bottom (= priority). the project owner's side edits this file; Anish only runs go.sh.
+#   ph     <tag> <after|-> <case dir> <time> <nice>   all disp-*.in in <case dir> as one Slurm array, 6 at a time
+#   cancel <tag>                                       scancel a set submitted earlier
+# 2026-10-18: everything now serves the top two, TP-NaSbBr4-01 and TP-LiSbBr4-01. Earlier sets (S1-S4 phonons, all MD,
+# relaxations) are finished and no longer listed; go.sh never resubmits a tag it already submitted. No inline comments below
+# (go.sh passes the rest of each line to sbatch).
+#   pk_phLSB: LiSbBr4 phonons, already submitted, keeps running (go.sh skips it)
+#   pk_phLBB: LiBiBr4 phonons, cancelled to free the cluster
+#   pk_top2:  dropped 2026-10-19 (laptops finished most of it; never submitted)
+#   pk_s7:    6 DFT relaxations only a cluster can do fast (S7/extra/MANIFEST.tsv)
+
+ph pk_phLSB - S5/TP-LiSbBr4-01 08:00:00 0
+cancel pk_phLBB
+ph pk_s7 - S7/extra 12:00:00 0

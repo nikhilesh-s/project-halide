@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_LiSbCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37666004
+_cell_length_b   6.99718500
+_cell_length_c   6.36472252
+_cell_angle_alpha   106.51830478
+_cell_angle_beta   102.13955478
+_cell_angle_gamma   121.93950329
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSbCl6
+_chemical_formula_sum   'Li1 Sb1 Cl6'
+_cell_volume   207.09729822
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.01080081  -0.00514656  -0.00092090  1
+  Sb  Sb1  1  0.00130049  0.50046931  -0.00090209  1
+  Cl  Cl2  1  0.85586491  0.10272786  0.69086662  1
+  Cl  Cl3  1  0.16430173  0.41089300  0.30734116  1
+  Cl  Cl4  1  0.83976109  0.59058867  0.69080151  1
+  Cl  Cl5  1  0.14822912  0.89880080  0.30735878  1
+  Cl  Cl6  1  0.44243624  0.72252174  -0.00103513  1
+  Cl  Cl7  1  0.56142022  0.27877560  0.99918425  1

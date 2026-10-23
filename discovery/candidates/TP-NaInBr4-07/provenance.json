@@ -1,0 +1,31 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "NaInBr4",
+ "source_id": "agm083575773",
+ "source_formula": "TlBiBr4",
+ "source_hull_eV": 0.024432624,
+ "source_sg": 15,
+ "substitution": {
+  "Tl": "Na",
+  "Bi": "In",
+  "Br": "Br"
+ },
+ "volume_scale": 0.8094540081524657,
+ "target_V_per_atom": 39.54196056441591,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm083575773"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": 5.9,
+ "dE_D3_meV": -3.6,
+ "best_existing_D3": "agm003229838",
+ "n_existing_D3": 5,
+ "E_decomp_meV": 28.9,
+ "binaries": "agm003157587+agm002201463",
+ "sg_D3": "C2/c",
+ "V_D3": 31.5,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

@@ -1,0 +1,36 @@
+{
+ "status": "PROPOSED MODEL; passed gate 4 (MACE-MPA-0+D3 rattle check only, no DFT)",
+ "chem": "LiInCl4",
+ "hit": "TP-LiInCl4-01",
+ "n": 12,
+ "conv": true,
+ "dE_before": -7.03,
+ "dE_after": -7.0,
+ "dec_before": -10.04,
+ "dec_after": -8.0,
+ "dec_full_hull": -8.0,
+ "route": {
+  "agm002142774(InCl3)": 0.667,
+  "agm002157414(LiCl)": 0.333
+ },
+ "best_after": "agm003740637",
+ "best_before": "agm003740637",
+ "AX": "agm002157414",
+ "MX3": "agm002142774",
+ "baselines": {
+  "agm003740637": [
+   12,
+   0.0
+  ],
+  "agm005438167": [
+   6,
+   50.5
+  ],
+  "agm005743195": [
+   12,
+   54.2
+  ]
+ },
+ "amx4_not_relaxed": [],
+ "keep": true
+}

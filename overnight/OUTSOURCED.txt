@@ -1,0 +1,2 @@
+# Jobs running on helper machines (not in any overnight/*/jobs folder). verdict.py counts each line as unfinished
+# until a converged result for it is imported (then delete the line). Path is relative to overnight/.

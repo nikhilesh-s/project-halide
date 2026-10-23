@@ -1,0 +1,40 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "NaSbI4",
+ "source_id": "agm003740643",
+ "source_formula": "NaBiI4",
+ "source_hull_eV": 0.0098902015,
+ "source_sg": 10,
+ "substitution": {
+  "Na": "Na",
+  "Bi": "Sb",
+  "I": "I"
+ },
+ "volume_scale": 1.0047040116049533,
+ "target_V_per_atom": 45.821276024736534,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm003740643",
+  "agm003742522",
+  "agm069058740",
+  "agm005738973",
+  "agm005739333",
+  "agm005740937",
+  "agm003742777",
+  "agm070405915",
+  "agm005739585",
+  "agm070324061"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -2.92,
+ "dE_D3_meV": -7.4,
+ "best_existing_D3": "agm005743434",
+ "n_existing_D3": 2,
+ "E_decomp_meV": 19.22,
+ "binaries": "agm003157588+agm005543490",
+ "sg_D3": "P2/m",
+ "V_D3": 38.16,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

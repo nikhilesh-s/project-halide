@@ -1,0 +1,67 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "KSbCl4",
+ "source_id": "agm089761403",
+ "source_formula": "RbBiCl4",
+ "source_hull_eV": 0.0,
+ "source_sg": 14,
+ "substitution": {
+  "Rb": "K",
+  "Bi": "Sb",
+  "Cl": "Cl"
+ },
+ "volume_scale": 0.8712533989909561,
+ "prototype_group": [
+  "agm089761403"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01, <= 600 steps",
+ "dE_meV": -7.532056021180011,
+ "dE_cheap_meV": -3.6910374959311376,
+ "decomp_binaries_meV": -41.380233643296314,
+ "decomp_all_meV": -27.929540250777762,
+ "sg": "P2_1/c",
+ "V": 30.759403338005185,
+ "n": 24,
+ "conv": true,
+ "best_listed": {
+  "id": "agm003737289",
+  "E": -3.5481196085775077,
+  "V": 30.299727718272013,
+  "sg": "C2/c",
+  "n": 12,
+  "conv": true,
+  "alex_hull_meV": 16.816728,
+  "listed_D3_meV": {
+   "agm005733350": 28.29,
+   "agm003737289": 0.0,
+   "agm005479477": 25.46
+  },
+  "decomp_binaries_meV": -33.8481776221163,
+  "decomp_all_meV": -20.39748422959775
+ },
+ "competitors_relaxed": [
+  {
+   "formula": "ClK",
+   "id": "agm003269520",
+   "conv": true,
+   "n": 2
+  },
+  {
+   "formula": "Cl3Sb",
+   "id": "agm002205242",
+   "conv": true,
+   "n": 8
+  },
+  {
+   "formula": "Cl6K3Sb",
+   "id": "agm050704424",
+   "conv": true,
+   "n": 20
+  }
+ ],
+ "competitors_not_relaxed": [
+  "Cl9K3Sb2 (agm012094232, 56 atoms)"
+ ],
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any listed Alexandria entry (<= 40 atoms) of this composition (PBE, MACE, MACE+D3 geometries)",
+ "not_checked": "ICSD, Pauling File, COD, OQMD, GNoME; phonons; DFT"
+}

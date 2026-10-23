@@ -1,0 +1,20 @@
+{
+  "id": "REF-NaBiBr4-on-NaBiCl4proto",
+  "formula": "NaBiBr4",
+  "n_atoms": 12,
+  "converged": true,
+  "steps": 72,
+  "E_per_atom": -2.996420520733556,
+  "vol_per_atom_in": 30.47802776509303,
+  "vol_per_atom": 38.87155433616159,
+  "vol_change_pct": 27.53959880790513,
+  "sg_0p01": "C2/c",
+  "sg_0p1": "C2/c",
+  "max_disp_A": 0.13365234131463544,
+  "min_dist_A": 2.77929480725918,
+  "fmax_final": 0.0068556293355467755,
+  "wall_s": 2.9870729446411133,
+  "x": 4,
+  "E_mix_meV": 0.0,
+  "flags": "dV>25%"
+}

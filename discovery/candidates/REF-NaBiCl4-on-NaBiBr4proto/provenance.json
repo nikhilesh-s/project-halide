@@ -1,0 +1,7 @@
+{
+  "label": "PROPOSED MODEL - pure element substitution, unrelaxed, not computed",
+  "source": "NBCB-4-NaBiBr4",
+  "substitution": "Br->Cl",
+  "note": "all-Cl on NaBiBr4 prototype (lattice not rescaled)",
+  "formula": "NaBiCl4"
+}

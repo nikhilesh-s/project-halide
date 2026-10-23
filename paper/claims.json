@@ -1,0 +1,155 @@
+{
+  "commit": "7fb5301",
+  "claims": {
+    "TP-NaSbBr4-01": {
+      "formula": "NaSbBr4",
+      "setting": "80 Ry k0.22",
+      "best_listed": "agm003733885",
+      "dE_vs_listed": -17.024566,
+      "vs_competing": -6.156962,
+      "competing_route": "NaBr + SbBr3",
+      "pending": [],
+      "status": "FINAL",
+      "tighter_settings": {
+        "80 Ry k0.17": {
+          "dE": -17.026278,
+          "competing": -6.156043
+        },
+        "100 Ry k0.22": {
+          "dE": -17.028285,
+          "competing": -6.146224
+        }
+      },
+      "phonons": {
+        "min_mesh_THz": 0.055,
+        "min_away_gamma_THz": 0.185,
+        "min_commensurate_THz": 0.5,
+        "supercell": [
+          2,
+          2,
+          2
+        ],
+        "tolerance_THz": -0.3,
+        "verdict": "PASS"
+      },
+      "md": "no long-range mobile-ion diffusion in 50-150 ps MACE-MPA-0 MD at fixed PBE-D3 volume, 300-600 K; conductivity below about 5e-3 S/cm at 600 K (slower conduction not ruled out)",
+      "dispersion": {
+        "noD3_hull": -9.73956,
+        "D3BJ_hull": -7.042885,
+        "OB86": {
+          "missing": [],
+          "dE_vs_listed": -21.27486,
+          "hull": -7.461906
+        }
+      }
+    },
+    "TP-LiSbBr4-01": {
+      "formula": "LiSbBr4",
+      "setting": "80 Ry k0.22",
+      "best_listed": "agm005739369",
+      "dE_vs_listed": -23.284103,
+      "vs_competing": -7.661955,
+      "competing_route": "LiBr + SbBr3",
+      "pending": [],
+      "status": "FINAL",
+      "tighter_settings": {
+        "80 Ry k0.17": {
+          "dE": -23.281053,
+          "competing": -7.662091
+        },
+        "100 Ry k0.22": {
+          "dE": -23.28374,
+          "competing": -7.548552
+        }
+      },
+      "phonons": {
+        "min_mesh_THz": 0.069,
+        "min_away_gamma_THz": 0.198,
+        "min_commensurate_THz": 0.508,
+        "supercell": [
+          2,
+          2,
+          2
+        ],
+        "tolerance_THz": -0.3,
+        "verdict": "PASS"
+      },
+      "md": "no long-range mobile-ion diffusion in 50-150 ps MACE-MPA-0 MD at fixed PBE-D3 volume, 300-600 K; conductivity below about 5e-3 S/cm at 600 K (slower conduction not ruled out)",
+      "dispersion": {
+        "noD3_hull": 2.047702,
+        "D3BJ_hull": -8.4213,
+        "missing_phases": {},
+        "OB86": {
+          "missing": [],
+          "dE_vs_listed": -22.81643,
+          "hull": -10.915882,
+          "noD3_dE_vs_listed": -22.674058
+        }
+      }
+    }
+  },
+  "search": {
+    "n_entries": 999,
+    "n_prototypes": 228,
+    "n_transplants": 9431,
+    "n_ml_d3": 1464,
+    "n_hits": 256,
+    "n_dft_models": 15,
+    "val_recovered": 3,
+    "val_total": 4,
+    "val_names": "NaAlBr~4~, NaGaCl~4~, LiGaCl~4~ and LiAlBr~4~",
+    "val_lialbr4_miss": "about 19",
+    "source": "discovery/results/transplant_cycle3.md; gate_night4.md (validation 3 of 4)",
+    "n_dft_formulas": 13,
+    "n_gate_pass": 7,
+    "n_gate_pass_other": 5,
+    "gate_pass_formulas": [
+      "LiBiBr4",
+      "LiSbBr4",
+      "LiYBr4",
+      "NaBiBr4",
+      "NaBiCl4",
+      "NaSbBr4",
+      "NaSbCl4"
+    ]
+  },
+  "meta": {
+    "NOMAD_V2_DOI": "10.17172/nomad.j0ce-ctz1",
+    "ZENODO_DOI": "10.5281/zenodo.23481926",
+    "CORRESPONDING_EMAIL": "<email-removed>",
+    "ORCID_NIK": "0009-0004-7227-2213",
+    "ORCID_ARNAV": "0009-0000-6170-8342",
+    "FUNDING": "none"
+  },
+  "control": {
+    "status": "done",
+    "setting": "80 Ry k0.22, PBE-D3 zero damping",
+    "lialbr4": {
+      "zero": -4.546768,
+      "bj": "not computed"
+    },
+    "note": "1 ML-pick and 2 experimental-type runs; negative = DFT also prefers the hypothetical model (false positive)"
+  },
+  "nonlocal_check": {
+    "functional": "vdW-DF-optB86b (input_dft='vdw-df-ob86'), from PBE-D3 geometries, 80 Ry k0.22",
+    "SbBr3_Pnma_minus_R3": 21.575347,
+    "TP-NaSbBr4-01": {
+      "missing": [],
+      "dE_vs_listed": -21.27486,
+      "hull": -7.461906
+    },
+    "TP-LiSbBr4-01": {
+      "missing": [],
+      "dE_vs_listed": -22.81643,
+      "hull": -10.915882,
+      "noD3_dE_vs_listed": -22.674058
+    },
+    "T1": {
+      "na_bin": -7.461906,
+      "li_bin": -10.915882,
+      "li_rs": -10.915882,
+      "li_wz": -15.23544,
+      "libr_order": -12.958674
+    }
+  }
+}

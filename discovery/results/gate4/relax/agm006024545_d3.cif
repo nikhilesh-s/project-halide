@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiSc3Cl8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.08487075
+_cell_length_b   7.07638925
+_cell_length_c   7.45259096
+_cell_angle_alpha   119.17230974
+_cell_angle_beta   89.97149959
+_cell_angle_gamma   120.04132853
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSc3Cl8
+_chemical_formula_sum   'Li1 Sc3 Cl8'
+_cell_volume   267.35927699
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00005877  0.00043306  -0.00076719  1
+  Sc  Sc1  1  0.50230231  0.00511635  -0.00132868  1
+  Sc  Sc2  1  0.50218707  0.49734629  -0.00159502  1
+  Sc  Sc3  1  -0.00513753  0.49698955  -0.00215599  1
+  Cl  Cl4  1  0.24931805  0.49831578  0.75298598  1
+  Cl  Cl5  1  0.75365559  0.50748031  0.25204084  1
+  Cl  Cl6  1  0.24822374  0.00072784  0.75884970  1
+  Cl  Cl7  1  0.75218627  0.00047739  0.75862025  1
+  Cl  Cl8  1  0.75278757  0.50589272  0.75936035  1
+  Cl  Cl9  1  0.24617759  0.49315518  0.23418236  1
+  Cl  Cl10  1  0.24652625  0.99585583  0.23463148  1
+  Cl  Cl11  1  0.74882894  0.99609695  0.23478615  1

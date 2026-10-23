@@ -1,0 +1,31 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "LiSbCl4",
+ "source_id": "agm082661748",
+ "source_formula": "NaYBr4",
+ "source_hull_eV": 0.0074026207,
+ "source_sg": 60,
+ "substitution": {
+  "Na": "Li",
+  "Y": "Sb",
+  "Br": "Cl"
+ },
+ "volume_scale": 0.8184553176578382,
+ "target_V_per_atom": 29.401855572515576,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm082661748"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -38.51,
+ "dE_D3_meV": -53.99,
+ "best_existing_D3": "agm005743014",
+ "n_existing_D3": 3,
+ "E_decomp_meV": 4.49,
+ "binaries": "agm002157414+agm002205242",
+ "sg_D3": "Pbcn",
+ "V_D3": 25.07,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

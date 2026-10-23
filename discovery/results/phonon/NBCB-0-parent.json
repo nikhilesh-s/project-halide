@@ -1,0 +1,11 @@
+{
+  "id": "NBCB-0-parent",
+  "n_disp": 18,
+  "done": 18,
+  "wall_s": 5.157785177230835,
+  "min_THz_commensurate": -0.00019525612893009266,
+  "min_THz_8x8x8": -0.709043884268494,
+  "n_modes_below_m0p1_commensurate": 0,
+  "n_modes_below_m0p1_8x8x8": 83,
+  "n_qpoints_8x8x8": 150
+}

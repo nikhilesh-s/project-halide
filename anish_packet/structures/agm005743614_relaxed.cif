@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaBiCl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67376341
+_cell_length_b   7.10770011
+_cell_length_c   10.07244114
+_cell_angle_alpha   119.21039707
+_cell_angle_beta   118.37580702
+_cell_angle_gamma   65.91656882
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBiCl4
+_chemical_formula_sum   'Na2 Bi2 Cl8'
+_cell_volume   357.14156334
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.43790935  0.68790752  0.37580451  1
+  Na  Na1  1  0.56209065  0.31209248  0.62419549  1
+  Bi  Bi2  1  0.32250539  0.07252228  0.14502476  1
+  Bi  Bi3  1  0.67749461  0.92747772  0.85497524  1
+  Cl  Cl4  1  0.92600766  0.17480179  0.87787755  1
+  Cl  Cl5  1  0.81157114  0.56456675  0.63269957  1
+  Cl  Cl6  1  0.45190720  0.70306415  0.87789616  1
+  Cl  Cl7  1  0.32113313  0.06811771  0.63271099  1
+  Cl  Cl8  1  0.67886687  0.93188229  0.36728901  1
+  Cl  Cl9  1  0.54809280  0.29693585  0.12210384  1
+  Cl  Cl10  1  0.18842886  0.43543325  0.36730043  1
+  Cl  Cl11  1  0.07399234  0.82519821  0.12212245  1
