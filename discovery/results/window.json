@@ -1,0 +1,78 @@
+{
+ "results": {
+  "TP-NaSbBr4-01": {
+   "setting": "80 Ry k0.22",
+   "phases": [
+    "SbBr3 [agm002139075]",
+    "NaBr [agm003157587]",
+    "Sb [agm003157733]",
+    "Na3SbBr6 [agm003568537]",
+    "NaSbBr4 [agm003733885]",
+    "NaSbBr6 [agm005745825]",
+    "Na2SbBr6 [agm005585966]",
+    "Na2SbBr5 [agm005863603]",
+    "NaSbBr4 [TP-NaSbBr4-01]",
+    "Na [01]",
+    "Br [03]"
+   ],
+   "window": {
+    "candidate": "NaSbBr4 [TP-NaSbBr4-01]",
+    "open": "Na",
+    "stable": true,
+    "V_reduction": 2.47,
+    "V_oxidation": 3.35,
+    "window_V": 0.879,
+    "reduction_products": {
+     "NaBr [agm003157587]": 4.0,
+     "Sb [agm003157733]": 1.0
+    },
+    "oxidation_products": {
+     "SbBr3 [agm002139075]": 1.0,
+     "Br [03]": 1.0
+    }
+   },
+   "pbe_gap": {
+    "homo": 1.921,
+    "lumo": 4.4431,
+    "gap_eV": 2.522
+   }
+  },
+  "TP-LiSbBr4-01": {
+   "setting": "80 Ry k0.22",
+   "phases": [
+    "LiSbBr4 [agm005739369]",
+    "LiBr [agm002091979]",
+    "SbBr3 [agm002139075]",
+    "Sb [agm003157733]",
+    "Li3SbBr6 [agm006027634]",
+    "Li2SbBr6 [agm005786618]",
+    "LiSbBr6 [agm005745758]",
+    "LiSbBr4 [TP-LiSbBr4-01]",
+    "Li [02]",
+    "Br [03]"
+   ],
+   "window": {
+    "candidate": "LiSbBr4 [TP-LiSbBr4-01]",
+    "open": "Li",
+    "stable": true,
+    "V_reduction": 2.379,
+    "V_oxidation": 3.27,
+    "window_V": 0.891,
+    "reduction_products": {
+     "LiBr [agm002091979]": 4.0,
+     "Sb [agm003157733]": 1.0
+    },
+    "oxidation_products": {
+     "SbBr3 [agm002139075]": 1.0,
+     "Br [03]": 1.0
+    }
+   },
+   "pbe_gap": {
+    "homo": 2.3545,
+    "lumo": 4.7328,
+    "gap_eV": 2.378
+   }
+  }
+ },
+ "pending": []
+}

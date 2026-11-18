@@ -1,0 +1,218 @@
+{
+ "01_Li3BiCl6_agm005963711_ternary_vcrelax": {
+  "struct": "agm005963711",
+  "formula": "Li3BiCl6",
+  "natoms": 10,
+  "ecut": 80.0,
+  "est_min": 75,
+  "judges": "TP-LiBiCl4-01",
+  "queue": "night4"
+ },
+ "02_Li3SbBr6_agm006027634_ternary_vcrelax": {
+  "struct": "agm006027634",
+  "formula": "Li3SbBr6",
+  "natoms": 10,
+  "ecut": 80.0,
+  "est_min": 75,
+  "judges": "TP-LiSbBr4-01",
+  "queue": "night4"
+ },
+ "03_Li3BiBr6_agm005961056_ternary_vcrelax": {
+  "struct": "agm005961056",
+  "formula": "Li3BiBr6",
+  "natoms": 10,
+  "ecut": 80.0,
+  "est_min": 75,
+  "judges": "TP-LiBiBr4-01",
+  "queue": "night4"
+ },
+ "04_Li3SbCl6_agm006027845_ternary_vcrelax": {
+  "struct": "agm006027845",
+  "formula": "Li3SbCl6",
+  "natoms": 10,
+  "ecut": 80.0,
+  "est_min": 75,
+  "judges": "TP-LiSbCl4-03",
+  "queue": "night4"
+ },
+ "05_LiInCl4_TP01_hit_vcrelax": {
+  "struct": "TP-LiInCl4-01",
+  "formula": "LiInCl4",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 100,
+  "judges": "TP-LiInCl4-01",
+  "queue": "night4"
+ },
+ "06_LiInCl4_agm003740637_best_existing_vcrelax": {
+  "struct": "agm003740637",
+  "formula": "LiInCl4",
+  "natoms": 6,
+  "ecut": 80.0,
+  "est_min": 30,
+  "judges": "TP-LiInCl4-01",
+  "queue": "night4"
+ },
+ "01_InCl3_agm002142774_ref_vcrelax": {
+  "struct": "agm002142774",
+  "formula": "InCl3",
+  "natoms": 8,
+  "ecut": 80.0,
+  "est_min": 45,
+  "judges": "TP-LiInCl4-01",
+  "queue": "night5"
+ },
+ "02_Li3InCl6_agm003569151_ternary_vcrelax": {
+  "struct": "agm003569151",
+  "formula": "Li3InCl6",
+  "natoms": 10,
+  "ecut": 80.0,
+  "est_min": 75,
+  "judges": "TP-LiInCl4-01",
+  "queue": "night5"
+ },
+ "03_LiScBr4_TP01_hit_vcrelax": {
+  "struct": "TP-LiScBr4-01",
+  "formula": "LiScBr4",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 100,
+  "judges": "TP-LiScBr4-01",
+  "queue": "night5"
+ },
+ "04_LiScBr4_agm005739333_best_existing_vcrelax": {
+  "struct": "agm005739333",
+  "formula": "LiScBr4",
+  "natoms": 6,
+  "ecut": 80.0,
+  "est_min": 30,
+  "judges": "TP-LiScBr4-01",
+  "queue": "night5"
+ },
+ "05_LiBr_agm002091979_ref_vcrelax": {
+  "struct": "agm002091979",
+  "formula": "LiBr",
+  "natoms": 4,
+  "ecut": 80.0,
+  "est_min": 10,
+  "judges": "TP-LiScBr4-01, TP-LiYBr4-02",
+  "queue": "night5"
+ },
+ "06_ScBr3_agm002184240_ref_vcrelax": {
+  "struct": "agm002184240",
+  "formula": "ScBr3",
+  "natoms": 8,
+  "ecut": 80.0,
+  "est_min": 45,
+  "judges": "TP-LiScBr4-01",
+  "queue": "night5"
+ },
+ "07_LiSc3Br8_agm006022042_ternary_vcrelax": {
+  "struct": "agm006022042",
+  "formula": "LiSc3Br8",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 100,
+  "judges": "TP-LiScBr4-01",
+  "queue": "night5"
+ },
+ "01_LiYBr4_TP02_hit_vcrelax": {
+  "struct": "TP-LiYBr4-02",
+  "formula": "LiYBr4",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 100,
+  "judges": "TP-LiYBr4-02",
+  "queue": "later"
+ },
+ "02_LiYBr4_agm003742437_best_existing_vcrelax": {
+  "struct": "agm003742437",
+  "formula": "LiYBr4",
+  "natoms": 6,
+  "ecut": 80.0,
+  "est_min": 30,
+  "judges": "TP-LiYBr4-02",
+  "queue": "later"
+ },
+ "03_YBr3_agm003297005_ref_vcrelax": {
+  "struct": "agm003297005",
+  "formula": "YBr3",
+  "natoms": 8,
+  "ecut": 80.0,
+  "est_min": 45,
+  "judges": "TP-LiYBr4-02",
+  "queue": "later"
+ },
+ "04_Li3YBr6_agm003224330_ternary_vcrelax": {
+  "struct": "agm003224330",
+  "formula": "Li3YBr6",
+  "natoms": 20,
+  "ecut": 80.0,
+  "est_min": 300,
+  "judges": "TP-LiYBr4-02",
+  "queue": "later"
+ },
+ "05_NaGaI4_TP02_hit_vcrelax": {
+  "struct": "TP-NaGaI4-02",
+  "formula": "NaGaI4",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 90,
+  "judges": "TP-NaGaI4-02",
+  "queue": "later"
+ },
+ "06_NaGaI4_agm003736187_best_existing_vcrelax": {
+  "struct": "agm003736187",
+  "formula": "NaGaI4",
+  "natoms": 12,
+  "ecut": 80.0,
+  "est_min": 90,
+  "judges": "TP-NaGaI4-02",
+  "queue": "later"
+ },
+ "07_NaGaI4_agm005755304_alex_hull0_vcrelax": {
+  "struct": "agm005755304",
+  "formula": "NaGaI4",
+  "natoms": 6,
+  "ecut": 80.0,
+  "est_min": 30,
+  "judges": "TP-NaGaI4-02",
+  "queue": "later"
+ },
+ "08_NaI_agm003157588_ref_vcrelax": {
+  "struct": "agm003157588",
+  "formula": "NaI",
+  "natoms": 2,
+  "ecut": 80.0,
+  "est_min": 5,
+  "judges": "TP-NaGaI4-02",
+  "queue": "later"
+ },
+ "09_GaI3_agm003220383_ref_vcrelax": {
+  "struct": "agm003220383",
+  "formula": "GaI3",
+  "natoms": 16,
+  "ecut": 80.0,
+  "est_min": 150,
+  "judges": "TP-NaGaI4-02",
+  "queue": "later"
+ },
+ "10_NaGaI3_agm005838860_ternary_vcrelax": {
+  "struct": "agm005838860",
+  "formula": "NaGaI3",
+  "natoms": 20,
+  "ecut": 80.0,
+  "est_min": 200,
+  "judges": "TP-NaGaI4-02 (Ga(II): off the NaI-GaI3 line)",
+  "queue": "later"
+ },
+ "11_Li3ScBr6_agm003568530_ternary_optional_vcrelax": {
+  "struct": "agm003568530",
+  "formula": "Li3ScBr6",
+  "natoms": 20,
+  "ecut": 80.0,
+  "est_min": 300,
+  "judges": "TP-LiScBr4-01 (optional; +67 meV in Alexandria)",
+  "queue": "later"
+ }
+}

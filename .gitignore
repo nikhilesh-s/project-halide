@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.env
+*.UPF
+results/raw/
+submission/
+*.lock
+.mpl-cache/
+!requirements*.lock
+deposit/build/
+overnight/.qe/
+overnight/.mamba/
+overnight/tmp/
+overnight/build/
+overnight/test_air/
+deposit_v2/build/
+deposit_v2/build_freeze/
+overnight/m5_run.log
+# large raw ML screen outputs and API caches (summaries are tracked; regenerate from discovery/scripts)
+discovery/cache/
+discovery/results/transplant_cycle3/
+discovery/results/widen/**/*.json
+# OS / editor junk
+.DS_Store
+*.pyc
+*.swp
+*~
+paper/build/
+paper/preprint_v2.filled.md

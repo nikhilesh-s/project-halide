@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Li3BiCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52088933
+_cell_length_b   6.49297166
+_cell_length_c   6.99964869
+_cell_angle_alpha   62.19374335
+_cell_angle_beta   62.16720511
+_cell_angle_gamma   60.08187727
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3BiCl6
+_chemical_formula_sum   'Li3 Bi1 Cl6'
+_cell_volume   216.34615823
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.30721919  0.35517299  0.03052103  1
+  Li  Li1  1  0.80188393  -0.14962468  0.54814820  1
+  Li  Li2  1  0.49677350  0.54470624  0.45991954  1
+  Bi  Bi3  1  -0.00456916  0.04585178  -0.03873014  1
+  Cl  Cl4  1  0.57249672  0.95904465  0.25496133  1
+  Cl  Cl5  1  0.42968733  0.13538168  0.74362912  1
+  Cl  Cl6  1  0.68915219  0.47937185  0.74416322  1
+  Cl  Cl7  1  0.21064324  0.62225986  0.25559167  1
+  Cl  Cl8  1  0.08656217  0.73906564  0.74361357  1
+  Cl  Cl9  1  0.91043820  0.26061838  0.25591615  1

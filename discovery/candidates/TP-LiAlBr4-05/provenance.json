@@ -1,0 +1,38 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "LiAlBr4",
+ "source_id": "agm089325837",
+ "source_formula": "RbAlCl4",
+ "source_hull_eV": 0.005257509,
+ "source_sg": 31,
+ "substitution": {
+  "Rb": "Li",
+  "Al": "Al",
+  "Cl": "Br"
+ },
+ "volume_scale": 0.9846212972102142,
+ "target_V_per_atom": 36.09869087504272,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm089325837",
+  "agm078968135",
+  "agm005754188",
+  "agm082892641",
+  "agm078294515",
+  "agm087938627",
+  "agm005754141",
+  "agm005753897"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": 2.47,
+ "dE_D3_meV": -4.44,
+ "best_existing_D3": "agm003740512",
+ "n_existing_D3": 5,
+ "E_decomp_meV": -36.07,
+ "binaries": "agm002091979+agm003220531",
+ "sg_D3": "Pmn2_1",
+ "V_D3": 29.75,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

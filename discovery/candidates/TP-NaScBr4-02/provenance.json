@@ -1,0 +1,37 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "NaScBr4",
+ "source_id": "agm077947982",
+ "source_formula": "NaGaF4",
+ "source_hull_eV": 0.0011220392,
+ "source_sg": 60,
+ "substitution": {
+  "Na": "Na",
+  "Ga": "Sc",
+  "F": "Br"
+ },
+ "volume_scale": 2.503803297879497,
+ "target_V_per_atom": 34.206210171362045,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm077947982",
+  "agm003232629",
+  "agm085223957",
+  "agm078552607",
+  "agm078704858",
+  "agm078379059",
+  "agm083371410"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -3.96,
+ "dE_D3_meV": -3.82,
+ "best_existing_D3": "agm005739585",
+ "n_existing_D3": 3,
+ "E_decomp_meV": 17.13,
+ "binaries": "agm003157587+agm002184236",
+ "sg_D3": "Pbcn",
+ "V_D3": 29.39,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

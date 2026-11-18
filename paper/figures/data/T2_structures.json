@@ -1,0 +1,185 @@
+{
+  "cn_cutoff_A": 3.6,
+  "cn_method": "fixed 3.6 A cutoff on Br neighbours (not CrystalNN); PBE-D3 zero-damping relaxed cells, 80 Ry k0.22",
+  "structures": {
+    "TP-NaSbBr4-01": {
+      "job": "night3/09_NaSbBr4_TP01_hit_vcrelax",
+      "space_group": "C2/c",
+      "number": 15,
+      "a": 13.676404296726636,
+      "b": 8.433755356596434,
+      "c": 7.281839909082881,
+      "alpha": 90.0,
+      "beta": 110.71693795604757,
+      "gamma": 90.0,
+      "V_per_fu_A3": 196.4006396031353,
+      "Z": 4
+    },
+    "agm003733885": {
+      "job": "night3/10_NaSbBr4_agm003733885_best_existing_vcrelax",
+      "space_group": "C2/c",
+      "number": 15,
+      "a": 8.543830972558585,
+      "b": 15.697779769081015,
+      "c": 7.122144197909347,
+      "alpha": 90.0,
+      "beta": 125.12658257867389,
+      "gamma": 90.0,
+      "V_per_fu_A3": 195.3137198581984,
+      "Z": 4
+    },
+    "TP-LiSbBr4-01": {
+      "job": "night3/02_LiSbBr4_TP01_hit_vcrelax",
+      "space_group": "C2/c",
+      "number": 15,
+      "a": 13.665895536139356,
+      "b": 8.049077145107951,
+      "c": 6.941199661756205,
+      "alpha": 90.0,
+      "beta": 109.87298762516794,
+      "gamma": 90.0,
+      "V_per_fu_A3": 179.51193745408082,
+      "Z": 4
+    },
+    "agm005739369": {
+      "job": "air/10_LiSbBr4_agm005739369_best_existing_vcrelax",
+      "space_group": "P2/m",
+      "number": 10,
+      "a": 6.633864014350028,
+      "b": 4.028270736176275,
+      "c": 6.910792532654912,
+      "alpha": 90.0,
+      "beta": 101.90544770363682,
+      "gamma": 90.0,
+      "V_per_fu_A3": 180.70458904946594,
+      "Z": 1
+    },
+    "agm003740876": {
+      "job": "air_heavy/03b_LiSbBr4_agm003740876_listed2_vcrelax",
+      "space_group": "C2/c",
+      "number": 15,
+      "a": 7.941379617393042,
+      "b": 15.934462638154287,
+      "c": 6.9506122889112705,
+      "alpha": 90.0,
+      "beta": 124.5978675129791,
+      "gamma": 90.0,
+      "V_per_fu_A3": 181.00034015757808,
+      "Z": 4
+    }
+  },
+  "na": {
+    "sb_cn": 6,
+    "sbbr_min": 2.688,
+    "sbbr_max": 3.049,
+    "a_cn": 6,
+    "a_br_range_A": [
+      2.979,
+      3.002
+    ],
+    "sb_motif": "distorted octahedral (2+2+2)",
+    "sb_connectivity": "1D Sb-Br network, edge-sharing SbBr_n units",
+    "sb_dimensionality": 1,
+    "shared_br_counts": [
+      2
+    ],
+    "sbbr_all_A": [
+      2.688,
+      2.69,
+      2.843,
+      2.844,
+      3.044,
+      3.049
+    ]
+  },
+  "li": {
+    "sb_cn": 6,
+    "sbbr_min": 2.691,
+    "sbbr_max": 3.019,
+    "a_cn": 6,
+    "a_br_range_A": [
+      2.745,
+      2.796
+    ],
+    "sb_motif": "distorted octahedral (2+2+2)",
+    "sb_connectivity": "1D Sb-Br network, edge-sharing SbBr_n units",
+    "sb_dimensionality": 1,
+    "shared_br_counts": [
+      2
+    ],
+    "sbbr_all_A": [
+      2.691,
+      2.691,
+      2.831,
+      2.831,
+      3.019,
+      3.019
+    ]
+  },
+  "sbbr3_r3": {
+    "sb_cn": 6,
+    "sbbr_min": 2.71,
+    "sbbr_max": 3.001,
+    "sb_dimensionality": 2,
+    "shared_br_counts": [
+      2
+    ],
+    "secondary_contacts_3p6_to_4p2_A": [],
+    "sb_motif": "distorted octahedral (3+3)",
+    "sb_connectivity": "2D Sb-Br network, edge-sharing SbBr_n units"
+  },
+  "sbbr3_pnma": {
+    "sb_cn": 3,
+    "sbbr_min": 2.555,
+    "sbbr_max": 2.569,
+    "sb_dimensionality": 0,
+    "shared_br_counts": [],
+    "secondary_contacts_3p6_to_4p2_A": [
+      3.73,
+      3.74,
+      3.74,
+      3.88,
+      3.88
+    ],
+    "sb_motif": "trigonal-pyramidal (3)",
+    "sb_connectivity": "isolated SbBr_3 molecules (secondary Sb...Br contacts at 3.73-3.88 A, beyond the 3.6 A cutoff)"
+  },
+  "shared_motif_vs_r3": "six-coordinate, distorted-octahedral Sb (R-3: distorted octahedral (3+3); models: distorted octahedral (2+2+2) and distorted octahedral (2+2+2)) in an extended Sb-Br network",
+  "na_vs_listed": {
+    "rms_A": 1.678,
+    "max_A": 3.516,
+    "ltol_stol_angle_tol": [
+      0.5,
+      0.7,
+      15
+    ],
+    "listed": "agm003733885"
+  },
+  "li_vs_listed2": {
+    "rms_A": 1.682,
+    "max_A": 3.374,
+    "ltol_stol_angle_tol": [
+      0.5,
+      0.7,
+      15
+    ],
+    "listed": "agm003740876"
+  },
+  "li_vs_listed1": {
+    "rms_A": null,
+    "max_A": null,
+    "ltol_stol_angle_tol": "no match up to 1.0/1.5/30",
+    "listed": "agm005739369"
+  },
+  "sbbr3_p212121_start": {
+    "symprec_0p001": "P2_12_12_1",
+    "symprec_0p05": "Pnma",
+    "pnma_start_symprec_0p001": "Pnma",
+    "volume_A3": [
+      581.5,
+      572.5
+    ],
+    "structurematcher_default_match": false,
+    "note": "relaxed P2_12_12_1-start cell stays P2_12_12_1 at symprec 0.001 and only reads as Pnma at 0.05; not the same structure as the Pnma-start cell"
+  }
+}

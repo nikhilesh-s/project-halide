@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaSbI4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57823761
+_cell_length_b   7.58583215
+_cell_length_c   8.87824023
+_cell_angle_alpha   89.94638952
+_cell_angle_beta   121.07586948
+_cell_angle_gamma   107.02625852
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSbI4
+_chemical_formula_sum   'Na2 Sb2 I8'
+_cell_volume   465.10668506
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.49965187  0.74988359  0.12462535  1
+  Na  Na1  1  0.50034808  0.25011639  0.87537463  1
+  Sb  Sb2  1  0.49981807  0.74988184  0.63568642  1
+  Sb  Sb3  1  0.50018160  0.25011806  0.36431345  1
+  I  I4  1  0.24616179  1.00986301  0.01059999  1
+  I  I5  1  0.75383832  -0.00986295  0.98940012  1
+  I  I6  1  0.24580537  0.50928870  0.73622023  1
+  I  I7  1  0.75419475  0.49071138  0.26377977  1
+  I  I8  1  0.76307536  1.01438320  0.51176170  1
+  I  I9  1  0.23692473  -0.01438322  0.48823834  1
+  I  I10  1  0.23666327  0.48526326  0.24948708  1
+  I  I11  1  0.76333681  0.51473671  0.75051298  1

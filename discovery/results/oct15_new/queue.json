@@ -1,0 +1,82 @@
+{
+ "00a_NaBiBr4_TP01_CsAlCl4type_hit": {
+  "struct": "TP-NaBiBr4-01",
+  "ecut": 80,
+  "est_min": 90,
+  "queue": "jobs",
+  "natoms": 12,
+  "formula": "NaBiBr4"
+ },
+ "00b_NaBiBr4_agm069058740_best_existing": {
+  "struct": "agm069058740",
+  "ecut": 80,
+  "est_min": 30,
+  "queue": "jobs",
+  "natoms": 6,
+  "formula": "NaBiBr4"
+ },
+ "00c_NaBiBr4_agm005739654_listed2": {
+  "struct": "agm005739654",
+  "ecut": 80,
+  "est_min": 30,
+  "queue": "jobs",
+  "natoms": 6,
+  "formula": "NaBiBr4"
+ },
+ "00d_Na3BiBr6_agm053446239_ternary": {
+  "struct": "agm053446239",
+  "ecut": 80,
+  "est_min": 50,
+  "queue": "jobs",
+  "natoms": 10,
+  "formula": "Na3BiBr6"
+ },
+ "00e_NaSbI4_TP01_CsAlCl4type_hit": {
+  "struct": "TP-NaSbI4-01",
+  "ecut": 80,
+  "est_min": 100,
+  "queue": "jobs",
+  "natoms": 12,
+  "formula": "NaSbI4"
+ },
+ "00f_NaSbI4_agm005743434_best_existing": {
+  "struct": "agm005743434",
+  "ecut": 80,
+  "est_min": 35,
+  "queue": "jobs",
+  "natoms": 6,
+  "formula": "NaSbI4"
+ },
+ "00g_SbI3_agm003264389_ref": {
+  "struct": "agm003264389",
+  "ecut": 80,
+  "est_min": 40,
+  "queue": "jobs",
+  "natoms": 8,
+  "formula": "SbI3"
+ },
+ "00h_NaBiI4_TP01_TlAlCl4type_hit": {
+  "struct": "TP-NaBiI4-01",
+  "ecut": 80,
+  "est_min": 100,
+  "queue": "overflow",
+  "natoms": 12,
+  "formula": "NaBiI4"
+ },
+ "00i_NaBiI4_agm003740643_best_existing": {
+  "struct": "agm003740643",
+  "ecut": 80,
+  "est_min": 35,
+  "queue": "overflow",
+  "natoms": 6,
+  "formula": "NaBiI4"
+ },
+ "00j_BiI3_agm003263390_ref": {
+  "struct": "agm003263390",
+  "ecut": 80,
+  "est_min": 40,
+  "queue": "overflow",
+  "natoms": 8,
+  "formula": "BiI3"
+ }
+}

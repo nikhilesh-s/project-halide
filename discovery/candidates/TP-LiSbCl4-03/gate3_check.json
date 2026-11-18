@@ -1,0 +1,22 @@
+{
+ "chem": "LiSbCl4",
+ "hit": "TP-LiSbCl4-03",
+ "n": 12,
+ "dE_before": -64.85,
+ "dE_after": -46.3,
+ "dec_before": -6.36,
+ "dec_after": -5.9,
+ "best_after": "agm005453208",
+ "best_before": "agm005743014",
+ "AX": "agm002157414",
+ "MX3": "agm002142958",
+ "dec_vs_A3MX6": {},
+ "conv": true,
+ "baselines": {
+  "agm005453208": 0.0,
+  "agm005743014": 18.7,
+  "agm003736548": 30.2
+ },
+ "keep": true,
+ "label": "PROPOSED MODEL - MACE-MPA-0+D3 rattle/re-relax gate (gate3); not DFT"
+}

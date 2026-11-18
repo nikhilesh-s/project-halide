@@ -1,0 +1,31 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "LiInBr4",
+ "source_id": "agm082912513",
+ "source_formula": "RbGaF4",
+ "source_hull_eV": 0.008033385,
+ "source_sg": 2,
+ "substitution": {
+  "Rb": "Li",
+  "Ga": "In",
+  "F": "Br"
+ },
+ "volume_scale": 1.831226439897254,
+ "target_V_per_atom": 34.8243008974885,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm082912513"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": 11.66,
+ "dE_D3_meV": -7.46,
+ "best_existing_D3": "agm003740511",
+ "n_existing_D3": 5,
+ "E_decomp_meV": -11.39,
+ "binaries": "agm002091979+agm002201463",
+ "sg_D3": "P-1",
+ "V_D3": 26.97,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

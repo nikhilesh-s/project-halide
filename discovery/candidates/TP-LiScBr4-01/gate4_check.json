@@ -1,0 +1,36 @@
+{
+ "status": "PROPOSED MODEL; passed gate 4 (MACE-MPA-0+D3 rattle check only, no DFT)",
+ "chem": "LiScBr4",
+ "hit": "TP-LiScBr4-01",
+ "n": 12,
+ "conv": true,
+ "dE_before": -6.77,
+ "dE_after": -6.8,
+ "dec_before": -10.92,
+ "dec_after": -10.8,
+ "dec_full_hull": -10.8,
+ "route": {
+  "agm002184240(ScBr3)": 0.667,
+  "agm002091979(LiBr)": 0.333
+ },
+ "best_after": "agm005739333",
+ "best_before": "agm005739333",
+ "AX": "agm002091979",
+ "MX3": "agm002184240",
+ "baselines": {
+  "agm005739333": [
+   6,
+   0.0
+  ],
+  "agm003740875": [
+   12,
+   43.3
+  ],
+  "agm005449580": [
+   6,
+   122.1
+  ]
+ },
+ "amx4_not_relaxed": [],
+ "keep": true
+}

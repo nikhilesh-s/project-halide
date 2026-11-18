@@ -1,0 +1,37 @@
+{
+ "label": "PROPOSED MODEL - prototype transplant ranked by MACE-MPA-0 + D3(BJ); not DFT, not a stability or discovery claim",
+ "formula": "LiSbCl4",
+ "source_id": "agm078214723",
+ "source_formula": "NaYCl4",
+ "source_hull_eV": 0.005075808,
+ "source_sg": 13,
+ "substitution": {
+  "Na": "Li",
+  "Y": "Sb",
+  "Cl": "Cl"
+ },
+ "volume_scale": 1.0222226051453935,
+ "target_V_per_atom": 29.401855572515576,
+ "scale_rule": "mean V/atom of existing Alexandria entries",
+ "prototype_group": [
+  "agm078214723",
+  "agm088474086",
+  "agm084080481",
+  "agm088938662",
+  "agm089984484",
+  "agm089009501",
+  "agm002157680"
+ ],
+ "relaxation": "mace_mp medium-mpa-0, cpu, float64, dispersion=True (D3 BJ, PBE), FIRE + FrechetCellFilter, fmax 0.01",
+ "dE_cheap_meV": -8.11,
+ "dE_D3_meV": -35.12,
+ "best_existing_D3": "agm005743014",
+ "n_existing_D3": 3,
+ "E_decomp_meV": 23.37,
+ "binaries": "agm002157414+agm002205242",
+ "sg_D3": "P2/c",
+ "V_D3": 24.33,
+ "D3_conv": true,
+ "identity": "no species-aware StructureMatcher match (default 0.2/0.3/5, loose 0.3/0.5/10) to any Alexandria entry of this composition (PBE, MACE and MACE+D3 geometries)",
+ "not_checked": "MP, OQMD, GNoME, ICSD, literature; phonons; DFT"
+}

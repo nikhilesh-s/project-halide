@@ -1,0 +1,58 @@
+{
+ "NaBiBr4": {
+  "hit": "TP-NaBiBr4-01",
+  "best_existing_csv": "agm069058740",
+  "natoms_prim": 12,
+  "abx4": [
+   [
+    "agm069058740",
+    6,
+    12.1
+   ],
+   [
+    "agm005739654",
+    6,
+    15.0
+   ],
+   [
+    "agm003733888",
+    12,
+    21.0
+   ]
+  ]
+ },
+ "NaSbI4": {
+  "hit": "TP-NaSbI4-01",
+  "best_existing_csv": "agm005743434",
+  "natoms_prim": 12,
+  "abx4": [
+   [
+    "agm005743434",
+    6,
+    17.4
+   ],
+   [
+    "agm003736683",
+    12,
+    22.9
+   ]
+  ]
+ },
+ "NaBiI4": {
+  "hit": "TP-NaBiI4-01",
+  "best_existing_csv": "agm003740643",
+  "natoms_prim": 12,
+  "abx4": [
+   [
+    "agm003740643",
+    6,
+    9.9
+   ],
+   [
+    "agm005743468",
+    6,
+    13.9
+   ]
+  ]
+ }
+}

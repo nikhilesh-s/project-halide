@@ -1,0 +1,12 @@
+05b4deb74e3932c23ab016979dc8b5d4 Na.pbe-spn-kjpaw_psl.1.0.0.UPF
+530da96d25dcb7781b0586ca00827062 Cl.pbe-n-kjpaw_psl.1.0.0.UPF
+266ded784ae3bc462508ed03f0f37963 Bi.pbe-dn-kjpaw_psl.1.0.0.UPF
+b00de77caabc69c0a6b76eb37264f235 Br.pbe-n-kjpaw_psl.1.0.0.UPF
+3974953fb0fea6c4f83fb01d64ffc134 Li.pbe-s-kjpaw_psl.1.0.0.UPF
+6b903ae7923846f66e229fa892705b98 Sb.pbe-n-kjpaw_psl.1.0.0.UPF
+502b6b27b9c6270cab5dd1084b96fa6d Al.pbe-n-kjpaw_psl.1.0.0.UPF
+50ce49cbf7e0a40ad8623bf41840a268 Ga.pbe-dn-kjpaw_psl.1.0.0.UPF
+235b15e6a7fdfd96486e0ecdcb5b12c6 In.pbe-dn-kjpaw_psl.1.0.0.UPF
+cd3d296c3308a581e1559a0c8a554cb5 I.pbe-n-kjpaw_psl.1.0.0.UPF
+d5ac433e587a0148d610ca85a1be5559 Sc.pbe-spn-kjpaw_psl.1.0.0.UPF
+d52e8d8ffa9ef5a9f13bb13aaba2e897 Y.pbe-spn-kjpaw_psl.1.0.0.UPF

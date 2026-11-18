@@ -1,0 +1,23 @@
+{
+ "chem": "NaSbBr4",
+ "hit": "TP-NaSbBr4-01",
+ "n": 12,
+ "dE_before": -21.97,
+ "dE_after": -22.0,
+ "dec_before": -5.12,
+ "dec_after": -5.2,
+ "best_after": "agm003733885",
+ "best_before": "agm003733885",
+ "AX": "agm003157587",
+ "MX3": "agm002139075",
+ "dec_vs_A3MX6": {
+  "agm016963778": -13.4
+ },
+ "conv": true,
+ "baselines": {
+  "agm003733885": 0.0,
+  "agm005739607": 1.8
+ },
+ "keep": true,
+ "label": "PROPOSED MODEL - MACE-MPA-0+D3 rattle/re-relax gate (gate3); not DFT"
+}

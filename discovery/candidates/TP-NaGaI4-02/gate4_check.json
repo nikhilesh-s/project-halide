@@ -1,0 +1,36 @@
+{
+ "status": "PROPOSED MODEL; passed gate 4 (MACE-MPA-0+D3 rattle check only, no DFT)",
+ "chem": "NaGaI4",
+ "hit": "TP-NaGaI4-02",
+ "n": 12,
+ "conv": true,
+ "dE_before": -18.13,
+ "dE_after": -18.2,
+ "dec_before": -4.96,
+ "dec_after": -5.0,
+ "dec_full_hull": -5.0,
+ "route": {
+  "agm003220383(GaI3)": 0.667,
+  "agm003157588(NaI)": 0.333
+ },
+ "best_after": "agm003736187",
+ "best_before": "agm003736187",
+ "AX": "agm003157588",
+ "MX3": "agm003220383",
+ "baselines": {
+  "agm003736187": [
+   12,
+   0.0
+  ],
+  "agm005755304": [
+   6,
+   17.9
+  ],
+  "agm077817710": [
+   12,
+   31.3
+  ]
+ },
+ "amx4_not_relaxed": [],
+ "keep": true
+}
