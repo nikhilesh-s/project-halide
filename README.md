@@ -6,6 +6,7 @@ Predicted crystal-structure models for two sodium and lithium antimony bromides,
 [![NOMAD v2 dataset](https://img.shields.io/badge/NOMAD%20v2-10.17172%2Fnomad.j0ce--ctz1-1f6f8b)](https://doi.org/10.17172/nomad.j0ce-ctz1)
 [![NOMAD v1 validation](https://img.shields.io/badge/NOMAD%20v1-10.17172%2Fnomad.7c09--m7v2-1f6f8b)](https://doi.org/10.17172/nomad.7c09-m7v2)
 [![Code archive](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.23481926-1f6f8b)](https://doi.org/10.5281/zenodo.23481926)
+[![ChemRxiv preprint](https://img.shields.io/badge/ChemRxiv-10.26434%2Fchemrxiv.15011026-1f6f8b)](https://doi.org/10.26434/chemrxiv.15011026/v1)
 
 <p align="center">
   <img src="paper/figures/F1_competing_phases.png" alt="DFT energies of the proposed models against competing phases" width="70%">
@@ -23,6 +24,7 @@ We moved known AMX4 structure types onto new chemistries, ranked the results wit
 |---|---|
 | Raw DFT inputs and outputs (v2) | NOMAD, [10.17172/nomad.j0ce-ctz1](https://doi.org/10.17172/nomad.j0ce-ctz1) |
 | Earlier validation dataset (v1, not a discovery claim) | NOMAD, [10.17172/nomad.7c09-m7v2](https://doi.org/10.17172/nomad.7c09-m7v2) |
+| Preprint | ChemRxiv, [10.26434/chemrxiv.15011026/v1](https://doi.org/10.26434/chemrxiv.15011026/v1) |
 | Code archive | Zenodo, [10.5281/zenodo.23481926](https://doi.org/10.5281/zenodo.23481926) |
 | NOMAD project page | [nomad-lab.eu](https://nomad-lab.eu/prod/v1/gui/v2/projects/Wozh3Uq0Rb-XVLm9aW3XLQ) |
 | This repository | Screening code, gate logic, figure scripts, small reports |
@@ -86,7 +88,7 @@ Full steps, including the stability window, are in [`REPRODUCE.md`](REPRODUCE.md
 
 ## How to cite
 
-Cite the data with the NOMAD record and the code with [`CITATION.cff`](CITATION.cff):
+Read the preprint at ChemRxiv. Cite the data with the NOMAD record and the code with [`CITATION.cff`](CITATION.cff):
 
 Suravarjjala, N., & Kakani, A. (2026). *Predicted crystal structure models for NaSbBr4 and LiSbBr4 from a prototype-transplant search (PBE-D3), with controls and negative results (v2)* [Data set]. NOMAD. https://doi.org/10.17172/nomad.j0ce-ctz1
 
