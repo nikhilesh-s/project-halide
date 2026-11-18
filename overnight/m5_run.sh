@@ -1,5 +1,5 @@
 #!/bin/bash
-# Daytime runs on Arnav's M5, started from the dashboard: works through overnight/QUEUE in order with NP cores while the
+# Daytime runs on a laptop, started from the dashboard: works through overnight/QUEUE in order with NP cores while the
 # laptop stays usable. Finished jobs are skipped, relaxations resume from their last step, results are NOT pushed here
 # (dashboard Push, Wi-Fi-off, or the overnight continue.sh do that).
 #   NP=2 BG=1 bash overnight/m5_run.sh     light: 2 cores, background priority

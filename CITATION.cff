@@ -18,7 +18,7 @@ abstract: >-
   Scripts used to screen, relax and judge predicted (not synthesised) Li/Na
   tetrahalide structure models with MACE-MPA-0 and Quantum ESPRESSO PBE-D3.
   Contains the gate logic (verdict.py), the structure-transplant scan, DFT job
-  generators and runner, and the cluster packet workflow. The two headline
+  generators and runner. The two headline
   proposed models are TP-NaSbBr4-01 and TP-LiSbBr4-01. All structures are
   predicted or proposed models; no electrolyte is claimed. Raw DFT outputs are
   in the NOMAD datasets, not here.

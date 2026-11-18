@@ -62,6 +62,7 @@ Settings: PBE-D3 zero damping, 80 Ry, k-spacing 0.22, 0 K, no spin-orbit couplin
 - No ion transport is shown. MACE molecular dynamics (50 to 150 ps, 300 to 600 K) found no long-range ion diffusion in the pristine crystals.
 - Sb(III) is expected to be reduced at Li and Na anode potentials.
 - Being below computed competitors does not make these phases. They are candidates for diffraction testing.
+- The NaSbBr4 phonon run's first displacement leaves a residual force above the 0.01 Ry/bohr gate; that force was subtracted, so treat the phonon result as supporting, not decisive.
 - Nothing has been synthesized.
 
 ## Reproduce
@@ -74,7 +75,7 @@ pip install -r requirements-ml.lock phonopy==4.8.3     # Python 3.11
 python -I discovery/scripts/verdict.py                 # ends with "self-check OK"
 ```
 
-Full steps, including the stability window and figure scripts, are in [`REPRODUCE.md`](REPRODUCE.md). DFT used Quantum ESPRESSO 7.5 with pslibrary 1.0.0 PAW pseudopotentials.
+Full steps, including the stability window, are in [`REPRODUCE.md`](REPRODUCE.md). DFT used Quantum ESPRESSO 7.5 with pslibrary 1.0.0 PAW pseudopotentials.
 
 | Path | What |
 |---|---|
